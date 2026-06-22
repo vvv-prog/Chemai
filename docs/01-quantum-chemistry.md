@@ -1,5 +1,7 @@
 # 01 · 量子化学与电子结构计算
 
+> 🌐 **中文** ｜ [English](en/01-quantum-chemistry.md)
+
 [← 返回首页](../README.md)
 
 求解电子结构（HF、DFT、后 HF、半经验等），用于分子/固体的能量、几何优化、

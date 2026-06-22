@@ -1,5 +1,7 @@
 # Chemai — 计算化学开源项目精选 (Awesome Computational Chemistry)
 
+> 🌐 **语言 / Language**：**中文** ｜ [English](README.en.md)
+
 > 一个持续维护的**计算化学（Computational Chemistry）开源项目**汇总，
 > 聚焦于每个项目的**使用方向**与**更新情况**，方便研究者、学生与工程师快速选型。
 
