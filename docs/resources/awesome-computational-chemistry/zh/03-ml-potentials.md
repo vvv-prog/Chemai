@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../03-ml-potentials.md)</kbd> <kbd>[**中文**](03-ml-potentials.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 用机器学习拟合势能面（MLIP / NNP），以**接近 DFT 的精度、接近经典力场的速度**，
 进行大体系、长时间尺度的分子动力学与材料模拟。近年大量出现**通用预训练势（基础模型）**，可直接使用或微调。
@@ -88,4 +88,4 @@
 - 相关：[GAP/SOAP](https://github.com/libAtoms/GAP)、[n2p2](https://github.com/CompPhysVienna/n2p2)、
   [Nequip/Allegro 生态]、[matsciml] 等。
 
-[← 上一类：分子动力学](02-molecular-dynamics.md) ｜ [返回首页](../../README.zh.md) ｜ [下一类：材料高通量工作流 →](04-materials-workflows.md)
+[← 上一类：分子动力学](02-molecular-dynamics.md) ｜ [返回首页](../README.zh.md) ｜ [下一类：材料高通量工作流 →](04-materials-workflows.md)

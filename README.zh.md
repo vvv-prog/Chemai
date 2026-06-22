@@ -1,93 +1,72 @@
-# Chemai — 计算化学开源项目精选 (Awesome Computational Chemistry)
+# chemai
 
 > **🌐 语言:** <kbd>[English](README.md)</kbd> <kbd>[**中文**](README.zh.md)</kbd>
 
-> 一个持续维护的**计算化学（Computational Chemistry）开源项目**汇总，
-> 聚焦于每个项目的**使用方向**与**更新情况**，方便研究者、学生与工程师快速选型。
+<!--
+  这是 chemai 项目的起始 README。请用 chemai 的具体信息替换下面的 TODO 章节
+  （它是什么、如何安装与使用）。
+-->
 
-本仓库按方向分为 7 大类，**每个项目都有独立的详细条目**（官网、代码仓库、语言/许可、
-使用方向、主要特性、更新情况），详见 [`docs/zh/`](docs/zh/) 目录（英文版位于 [`docs/`](docs/)）。
+**chemai** —— 一个面向 **AI × 计算化学** 的项目。
 
-- 📌 **使用方向**：该项目最擅长解决什么问题、典型应用场景。
-- 🔄 **更新情况**：截至 **2026 年 6 月** 的最新版本 / 发布节奏 / 维护活跃度。
-  版本会随时间变化，**实时状态以各项目 Releases 页面为准**（文档内已附链接）。
-- 🏷️ **活跃度图例**：🟢 高度活跃（近数月有发布）｜🟡 稳定维护（按年/季度发布）｜🟠 缓慢/偶尔更新。
+> 🚧 **状态：** 早期脚手架。以下章节为占位内容，待项目成型后填写。
+> 仓库中位于 [`docs/resources/`](docs/resources/) 的精选资源清单已经完成、可直接使用。
 
----
+## 项目简介
 
-## 📚 分类目录（点击进入详细文档）
+<!-- TODO: chemai 是什么、解决什么问题、面向谁。 -->
 
-| # | 分类 | 内容概要 | 代表项目 |
-|---|------|---------|---------|
-| 01 | [量子化学与电子结构计算](docs/zh/01-quantum-chemistry.md) | HF/DFT/后 HF、半经验、周期性体系 | PySCF · Psi4 · NWChem · CP2K · Quantum ESPRESSO · GPAW · ABINIT · xtb · DFTB+ |
-| 02 | [分子动力学模拟](docs/zh/02-molecular-dynamics.md) | 经典 MD、自由能、软物质 | GROMACS · LAMMPS · OpenMM · HOOMD-blue · ESPResSo · AmberTools |
-| 03 | [机器学习势函数 / 原子尺度机器学习](docs/zh/03-ml-potentials.md) | MLIP / NNP、通用预训练势 | DeePMD-kit · MACE · NequIP/Allegro · MatGL · fairchem · TorchANI · SchNetPack · sGDML |
-| 04 | [材料建模与高通量工作流](docs/zh/04-materials-workflows.md) | 结构操作、自动化、数据溯源 | ASE · pymatgen · AiiDA · atomate2 · FireWorks · Custodian |
-| 05 | [化学信息学](docs/zh/05-cheminformatics.md) | 分子表示、指纹、格式转换、化学 ML | RDKit · Open Babel · DeepChem |
-| 06 | [分子对接与药物设计](docs/zh/06-docking-drug-design.md) | 对接、虚拟筛选、结合亲和力 | AutoDock Vina · AutoDock-GPU · smina · gnina |
-| 07 | [轨迹分析与可视化](docs/zh/07-visualization-analysis.md) | 轨迹分析、分子可视化与出图 | MDAnalysis · MDTraj · PyMOL · Avogadro 2 · NGLView/py3Dmol · OVITO |
+## 功能特性
 
----
+<!-- TODO: 列出主要能力。 -->
 
-## ⚡ 主要项目更新概览（截至 2026-06）
+## 安装
 
-| 项目 | 分类 | 最新版本 / 状态 | 活跃度 |
-|------|------|----------------|--------|
-| [PySCF](docs/zh/01-quantum-chemistry.md#pyscf) | 量子化学 | v2.13.1（2026-06） | 🟢 |
-| [Psi4](docs/zh/01-quantum-chemistry.md#psi4) | 量子化学 | v1.10（2025-09） | 🟡 |
-| [NWChem](docs/zh/01-quantum-chemistry.md#nwchem) | 量子化学 | v7.3.1（2025-11） | 🟡 |
-| [CP2K](docs/zh/01-quantum-chemistry.md#cp2k) | 量子化学 | 年度发布（2025–2026 活跃） | 🟢 |
-| [Quantum ESPRESSO](docs/zh/01-quantum-chemistry.md#quantum-espresso) | 量子化学 | v7.4.1（2025-03） | 🟡 |
-| [GPAW](docs/zh/01-quantum-chemistry.md#gpaw) | 量子化学 | v25.7.0（2025-07） | 🟡 |
-| [ABINIT](docs/zh/01-quantum-chemistry.md#abinit) | 量子化学 | v10.6（2026-02） | 🟡 |
-| [xtb](docs/zh/01-quantum-chemistry.md#xtbgfn-xtb) | 半经验 | 新增 GPU 加速（2026-05） | 🟢 |
-| [GROMACS](docs/zh/02-molecular-dynamics.md#gromacs) | 分子动力学 | 2026.2（2026 系列） | 🟢 |
-| [LAMMPS](docs/zh/02-molecular-dynamics.md#lammps) | 分子动力学 | 稳定 22Jul2025 / 特性 30Mar2026 | 🟢 |
-| [OpenMM](docs/zh/02-molecular-dynamics.md#openmm) | 分子动力学 | v8.5.2（2026-06） | 🟢 |
-| [DeePMD-kit](docs/zh/03-ml-potentials.md#deepmd-kit) | ML 势 | v3.1.x（含 DPA3 预训练） | 🟢 |
-| [MACE](docs/zh/03-ml-potentials.md#mace) | ML 势 | 基础模型持续迭代 | 🟢 |
-| [MatGL](docs/zh/03-ml-potentials.md#matglmaterials-graph-library) | ML 势 | v2.0.0（2025-11） | 🟢 |
-| [fairchem](docs/zh/03-ml-potentials.md#fairchemfair-chemistry) | ML 势 | 活跃（2026-06） | 🟢 |
-| [ASE](docs/zh/04-materials-workflows.md#aseatomic-simulation-environment) | 工作流 | v3.28.0（2026-03） | 🟢 |
-| [pymatgen](docs/zh/04-materials-workflows.md#pymatgenpython-materials-genomics) | 工作流 | 2026.5.18（日历版本） | 🟢 |
-| [RDKit](docs/zh/05-cheminformatics.md#rdkit) | 化学信息学 | 2026.03.3（2026-06） | 🟢 |
-| [Open Babel](docs/zh/05-cheminformatics.md#open-babel) | 化学信息学 | 3.1.1（更新缓慢） | 🟠 |
-| [AutoDock Vina](docs/zh/06-docking-drug-design.md#autodock-vina) | 对接 | v1.2.7 | 🟡 |
-| [gnina](docs/zh/06-docking-drug-design.md#gnina) | 对接 | v1.3.2（2025-07，迁移 PyTorch） | 🟢 |
-| [MDAnalysis](docs/zh/07-visualization-analysis.md#mdanalysis) | 轨迹分析 | 活跃（支持 NumPy 2） | 🟢 |
-| [PyMOL（开源版）](docs/zh/07-visualization-analysis.md#pymol开源版) | 可视化 | 3.1.x（2026-03） | 🟡 |
+<!-- TODO: 安装步骤。 -->
 
-> 完整项目列表与每个项目的详细信息见各分类文档。
+```sh
+# TODO
+```
 
----
+## 使用
 
-## 🧭 如何选型（速查）
+<!-- TODO: 最小可运行示例。 -->
 
-| 我的需求 | 推荐起点 |
-|---------|---------|
-| 分子的精确能量/光谱（小到中等体系） | **PySCF** / **Psi4**（高精度）、**ORCA**（免费非开源） |
-| 周期性固体/材料的 DFT | **Quantum ESPRESSO** / **CP2K** / **GPAW** / **ABINIT** |
-| 超算上的大规模量子化学 | **NWChem** / **CP2K** |
-| 超快预筛选 / 构象搜索 | **xtb + CREST** / **DFTB+** |
-| 蛋白质/生物分子 MD | **GROMACS** / **OpenMM** / **AmberTools** |
-| 材料/软物质大规模 MD | **LAMMPS** / **HOOMD-blue** |
-| 用 ML 势做近 DFT 精度的大体系 MD | **MACE** / **DeePMD-kit** / **NequIP** / **MatGL** |
-| 高通量自动化计算 | **ASE** + **pymatgen** + **atomate2** / **AiiDA** |
-| 分子描述符/指纹/化学信息学 | **RDKit**（+ **Open Babel** 做格式转换） |
-| 虚拟筛选 / 分子对接 | **AutoDock Vina** / **AutoDock-GPU** / **gnina** |
-| MD 轨迹分析 | **MDAnalysis** / **MDTraj** |
-| 分子可视化出图 | **PyMOL** / **Avogadro 2** / **NGLView** |
+```sh
+# TODO
+```
 
----
+## 📚 资源
 
-## 🤝 参与贡献
+本仓库同时维护一份精选的双语参考清单：
 
-欢迎补充与勘误：
+- **[计算化学开源项目精选](docs/resources/awesome-computational-chemistry/README.zh.md)**
+  —— 涵盖量子化学、分子动力学、机器学习势、高通量工作流、化学信息学、分子对接与可视化，
+  每个项目均附使用方向与更新情况。
+  （[English](docs/resources/awesome-computational-chemistry/README.md)）
 
-- **新增项目**：请提供 GitHub/官网链接、语言与许可证、一句话使用方向、最新版本与发布日期，
-  归入对应的 [`docs/zh/`](docs/zh/) 中文分类文件（如可能也同步更新英文版 [`docs/`](docs/)）。
-- **更新状态**：版本号随时间变化，发现过时信息请提交修订（并附 Releases 链接佐证）。
-- **收录标准**：开源（OSI 许可优先）、与计算化学直接相关、有实际用户或活跃维护。
+## 仓库结构
 
-> ⚠️ **免责声明**：文档中的「更新情况」为 **2026 年 6 月**前后通过各项目公开 Releases 页面整理，仅供参考；
-> 请以官方仓库的实时发布信息为准。许可证以各仓库声明为准。
+```
+chemai/
+├── README.md            # 项目说明（英文）
+├── README.zh.md         # 本文件（中文）
+└── docs/
+    └── resources/
+        └── awesome-computational-chemistry/   # 精选项目清单（英文 + zh/）
+            ├── README.md        # 清单索引（英文）
+            ├── README.zh.md     # 清单索引（中文）
+            ├── 01-..07-*.md     # 分类文档（英文）
+            └── zh/              # 分类文档（中文）
+```
+
+## 参与贡献
+
+<!-- TODO: chemai 项目本身的贡献指南。 -->
+
+欢迎贡献。资源清单部分的补充规则见其
+[贡献说明](docs/resources/awesome-computational-chemistry/README.zh.md#-参与贡献)。
+
+## 许可证
+
+<!-- TODO: 选择并添加一个许可证（例如 MIT）。 -->

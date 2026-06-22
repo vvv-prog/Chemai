@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](06-docking-drug-design.md)</kbd> <kbd>[Chinese](zh/06-docking-drug-design.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Predicting the binding pose and binding affinity of small-molecule ligands to protein targets, for
 **virtual screening** and lead discovery.
@@ -63,4 +63,4 @@ Predicting the binding pose and binding affinity of small-molecule ligands to pr
 > Tip: ligand preparation before docking is often done with **Open Babel** ([see Cheminformatics](05-cheminformatics.md))
 > or Meeko for PDBQT conversion.
 
-[← Previous: Cheminformatics](05-cheminformatics.md) | [Back to home](../README.md) | [Next: Trajectory Analysis & Visualization →](07-visualization-analysis.md)
+[← Previous: Cheminformatics](05-cheminformatics.md) | [Back to home](README.md) | [Next: Trajectory Analysis & Visualization →](07-visualization-analysis.md)

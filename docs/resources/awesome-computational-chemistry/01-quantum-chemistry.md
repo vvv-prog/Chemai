@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](01-quantum-chemistry.md)</kbd> <kbd>[Chinese](zh/01-quantum-chemistry.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Solving the electronic structure (HF, DFT, post-HF, semi-empirical, …) for energies, geometry
 optimization, reaction paths, spectra, and electronic properties of molecules and solids.
@@ -121,4 +121,4 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 | [CREST](https://github.com/crest-lab/crest) | xtb-based automated conformer sampling; used together with xtb |
 | [Dalton](https://gitlab.com/dalton/dalton) | Strong at molecular properties (response theory, NMR, magnetic properties) |
 
-[← Back to home](../README.md) | [Next: Molecular Dynamics →](02-molecular-dynamics.md)
+[← Back to home](README.md) | [Next: Molecular Dynamics →](02-molecular-dynamics.md)

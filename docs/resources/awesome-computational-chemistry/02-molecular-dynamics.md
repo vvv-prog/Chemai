@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](02-molecular-dynamics.md)</kbd> <kbd>[Chinese](zh/02-molecular-dynamics.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Classical and enhanced-sampling molecular dynamics (MD) for the dynamics, thermodynamic properties,
 and free-energy calculations of biomolecules, soft matter, and materials.
@@ -87,4 +87,4 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 | [OpenFF Toolkit](https://github.com/openforcefield/openff-toolkit) | Open-source small-molecule force fields (SMIRNOFF) and parameterization tools |
 | Amber (pmemd) / Desmond | Commercial / paid licenses — outside this open-source list |
 
-[← Previous: Quantum Chemistry](01-quantum-chemistry.md) | [Back to home](../README.md) | [Next: ML Potentials →](03-ml-potentials.md)
+[← Previous: Quantum Chemistry](01-quantum-chemistry.md) | [Back to home](README.md) | [Next: ML Potentials →](03-ml-potentials.md)

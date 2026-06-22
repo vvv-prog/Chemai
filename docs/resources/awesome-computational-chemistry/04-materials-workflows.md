@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](04-materials-workflows.md)</kbd> <kbd>[Chinese](zh/04-materials-workflows.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Building and manipulating atomic structures, providing a unified interface to the various calculation
 engines, and handling the **automation, job management, and data provenance** of high-throughput computing.
@@ -84,4 +84,4 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 | [matminer](https://github.com/hackingmaterials/matminer) | Materials data mining and feature engineering |
 | [OPTIMADE](https://github.com/Materials-Consortia/OPTIMADE) | A standard API for unified queries across materials databases |
 
-[← Previous: ML Potentials](03-ml-potentials.md) | [Back to home](../README.md) | [Next: Cheminformatics →](05-cheminformatics.md)
+[← Previous: ML Potentials](03-ml-potentials.md) | [Back to home](README.md) | [Next: Cheminformatics →](05-cheminformatics.md)

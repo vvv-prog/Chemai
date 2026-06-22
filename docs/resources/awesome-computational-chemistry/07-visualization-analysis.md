@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](07-visualization-analysis.md)</kbd> <kbd>[Chinese](zh/07-visualization-analysis.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 **Reading and analyzing** molecular dynamics trajectories, and the **visualization and figure generation** of
 molecular structures, trajectories, and computational results.
@@ -79,4 +79,4 @@ molecular structures, trajectories, and computational results.
 | [Mol*](https://github.com/molstar/molstar) | Modern web-based molecular visualization (adopted by the official PDB), open source |
 | nglview ↔ MDAnalysis | The two can be used together to analyze and view trajectories inside a notebook |
 
-[← Previous: Docking & Drug Design](06-docking-drug-design.md) | [Back to home](../README.md)
+[← Previous: Docking & Drug Design](06-docking-drug-design.md) | [Back to home](README.md)

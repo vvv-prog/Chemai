@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../01-quantum-chemistry.md)</kbd> <kbd>[**中文**](01-quantum-chemistry.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 求解电子结构（HF、DFT、后 HF、半经验等），用于分子/固体的能量、几何优化、
 反应路径、光谱与电子性质计算。
@@ -109,4 +109,4 @@
 | [CREST](https://github.com/crest-lab/crest) | 基于 xtb 的自动构象采样工具，配合 xtb 使用 |
 | [Dalton](https://gitlab.com/dalton/dalton) | 分子性质（响应理论、NMR、磁性质）见长 |
 
-[← 返回首页](../../README.zh.md) ｜ [下一类：分子动力学模拟 →](02-molecular-dynamics.md)
+[← 返回首页](../README.zh.md) ｜ [下一类：分子动力学模拟 →](02-molecular-dynamics.md)

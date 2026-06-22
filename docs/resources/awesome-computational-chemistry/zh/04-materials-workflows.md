@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../04-materials-workflows.md)</kbd> <kbd>[**中文**](04-materials-workflows.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 原子结构的构建与操作、与各类计算引擎的统一接口，以及**高通量计算的自动化、任务管理与数据溯源**。
 这是连接「计算引擎」与「大规模科研产出」的中间层。
@@ -77,4 +77,4 @@
 | [matminer](https://github.com/hackingmaterials/matminer) | 材料数据挖掘与特征工程 |
 | [OPTIMADE](https://github.com/Materials-Consortia/OPTIMADE) | 材料数据库统一查询 API 标准 |
 
-[← 上一类：机器学习势函数](03-ml-potentials.md) ｜ [返回首页](../../README.zh.md) ｜ [下一类：化学信息学 →](05-cheminformatics.md)
+[← 上一类：机器学习势函数](03-ml-potentials.md) ｜ [返回首页](../README.zh.md) ｜ [下一类：化学信息学 →](05-cheminformatics.md)

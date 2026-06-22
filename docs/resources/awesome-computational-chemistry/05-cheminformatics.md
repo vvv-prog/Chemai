@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](05-cheminformatics.md)</kbd> <kbd>[Chinese](zh/05-cheminformatics.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Molecular representation, reading/writing and format conversion, descriptor/fingerprint generation,
 substructure matching, conformer generation, and chemical feature engineering for machine learning.
@@ -55,4 +55,4 @@ substructure matching, conformer generation, and chemical feature engineering fo
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | Brings RDKit featurization into scikit-learn pipelines |
 | [Indigo](https://github.com/epam/Indigo) | Another cheminformatics toolkit and rendering library (EPAM) |
 
-[← Previous: Materials Workflows](04-materials-workflows.md) | [Back to home](../README.md) | [Next: Docking & Drug Design →](06-docking-drug-design.md)
+[← Previous: Materials Workflows](04-materials-workflows.md) | [Back to home](README.md) | [Next: Docking & Drug Design →](06-docking-drug-design.md)

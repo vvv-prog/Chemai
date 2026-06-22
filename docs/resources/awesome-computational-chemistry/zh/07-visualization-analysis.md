@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../07-visualization-analysis.md)</kbd> <kbd>[**中文**](07-visualization-analysis.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 分子动力学**轨迹的读取与分析**，以及分子结构、轨迹与计算结果的**可视化与出图**。
 
@@ -74,4 +74,4 @@
 | [Mol*](https://github.com/molstar/molstar) | 现代 Web 端分子可视化（PDB 官方采用），开源 |
 | [nglview ↔ MDAnalysis] | 二者可联用，在 Notebook 中边分析边看轨迹 |
 
-[← 上一类：分子对接与药物设计](06-docking-drug-design.md) ｜ [返回首页](../../README.zh.md)
+[← 上一类：分子对接与药物设计](06-docking-drug-design.md) ｜ [返回首页](../README.zh.md)

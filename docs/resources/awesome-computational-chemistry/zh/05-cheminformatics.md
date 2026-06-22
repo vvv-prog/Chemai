@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../05-cheminformatics.md)</kbd> <kbd>[**中文**](05-cheminformatics.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 分子的表示、读写与格式转换、描述符/指纹生成、子结构匹配、构象生成，
 以及面向机器学习的化学特征工程。
@@ -53,4 +53,4 @@
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | 将 RDKit 特征化接入 scikit-learn 管线 |
 | [Indigo](https://github.com/epam/Indigo) | 另一套化学信息学工具与渲染库（EPAM） |
 
-[← 上一类：材料高通量工作流](04-materials-workflows.md) ｜ [返回首页](../../README.zh.md) ｜ [下一类：分子对接与药物设计 →](06-docking-drug-design.md)
+[← 上一类：材料高通量工作流](04-materials-workflows.md) ｜ [返回首页](../README.zh.md) ｜ [下一类：分子对接与药物设计 →](06-docking-drug-design.md)

@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../02-molecular-dynamics.md)</kbd> <kbd>[**中文**](02-molecular-dynamics.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 经典/增强采样分子动力学（MD），用于生物大分子、软物质、材料体系的动力学行为、
 热力学性质与自由能计算。
@@ -80,4 +80,4 @@
 | [OpenFF Toolkit](https://github.com/openforcefield/openff-toolkit) | 开源小分子力场（SMIRNOFF）参数化工具 |
 | Amber（pmemd）/ Desmond | 商业/付费许可，不在本开源列表范围 |
 
-[← 上一类：量子化学](01-quantum-chemistry.md) ｜ [返回首页](../../README.zh.md) ｜ [下一类：机器学习势函数 →](03-ml-potentials.md)
+[← 上一类：量子化学](01-quantum-chemistry.md) ｜ [返回首页](../README.zh.md) ｜ [下一类：机器学习势函数 →](03-ml-potentials.md)

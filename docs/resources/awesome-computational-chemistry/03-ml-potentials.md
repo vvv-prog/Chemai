@@ -2,7 +2,7 @@
 
 > **🌐 Language:** <kbd>[**English**](03-ml-potentials.md)</kbd> <kbd>[Chinese](zh/03-ml-potentials.md)</kbd>
 
-[← Back to home](../README.md)
+[← Back to home](README.md)
 
 Using machine learning to fit the potential energy surface (MLIP / NNP) to run molecular dynamics and
 materials simulations at **near-DFT accuracy and near-force-field speed** over large systems and long
@@ -100,4 +100,4 @@ can be used directly or fine-tuned.
 - Related: [GAP/SOAP](https://github.com/libAtoms/GAP), [n2p2](https://github.com/CompPhysVienna/n2p2),
   the NequIP/Allegro ecosystem, matsciml, and others.
 
-[← Previous: Molecular Dynamics](02-molecular-dynamics.md) | [Back to home](../README.md) | [Next: Materials Workflows →](04-materials-workflows.md)
+[← Previous: Molecular Dynamics](02-molecular-dynamics.md) | [Back to home](README.md) | [Next: Materials Workflows →](04-materials-workflows.md)

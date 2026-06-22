@@ -2,7 +2,7 @@
 
 > **🌐 语言:** <kbd>[English](../06-docking-drug-design.md)</kbd> <kbd>[**中文**](06-docking-drug-design.md)</kbd>
 
-[← 返回首页](../../README.zh.md)
+[← 返回首页](../README.zh.md)
 
 预测小分子配体与蛋白靶点的结合构象（pose）与结合亲和力，用于**虚拟筛选**与先导化合物发现。
 
@@ -57,4 +57,4 @@
 
 > 提示：对接前的配体准备常用 **Open Babel**（[见化学信息学](05-cheminformatics.md)）或 Meeko 完成 PDBQT 转换。
 
-[← 上一类：化学信息学](05-cheminformatics.md) ｜ [返回首页](../../README.zh.md) ｜ [下一类：轨迹分析与可视化 →](07-visualization-analysis.md)
+[← 上一类：化学信息学](05-cheminformatics.md) ｜ [返回首页](../README.zh.md) ｜ [下一类：轨迹分析与可视化 →](07-visualization-analysis.md)
