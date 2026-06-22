@@ -41,6 +41,11 @@ Corrections, new project entries, status updates, and documentation improvements
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) and the resource collection's
 [contributing notes](docs/resources/awesome-computational-chemistry/README.md#-contributing).
 
+## Contributors
+
+- Claude
+- Codex
+
 ## License
 
 Unless a file states otherwise, the original documentation and curated resource collection in this

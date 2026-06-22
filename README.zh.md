@@ -35,6 +35,11 @@ Chemai/
 欢迎提交勘误、新项目条目、状态更新与文档改进。请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，以及资源清单中的
 [贡献说明](docs/resources/awesome-computational-chemistry/README.zh.md#-参与贡献)。
 
+## 贡献者
+
+- Claude
+- Codex
+
 ## 许可证
 
 除非文件另有说明，本仓库中的原创文档与精选资源清单采用
