@@ -1,74 +1,48 @@
-# chemai
+# Chemai
 
-> **🌐 Language:** <kbd>[**English**](README.md)</kbd> <kbd>[Chinese](README.zh.md)</kbd>
+> **Language:** <kbd>[**English**](README.md)</kbd> <kbd>[Chinese](README.zh.md)</kbd>
 
-<!--
-  This is a starter README for the chemai project. Replace the TODO sections below
-  with details specific to chemai (what it does, how to install and use it).
--->
+**Chemai** is an AI and computational chemistry project. Its first public asset is a curated,
+bilingual resource collection for open-source computational chemistry tools.
 
-**chemai** — a project at the intersection of **AI and computational chemistry**.
+The software side of Chemai is still taking shape. For now, this repository is useful as a
+well-structured reference map for researchers, students, and engineers comparing tools across
+quantum chemistry, molecular dynamics, atomistic machine learning, materials workflows,
+cheminformatics, docking, and visualization.
 
-> 🚧 **Status:** early scaffold. The sections below are placeholders to fill in as the
-> project takes shape. The curated resource collection under [`docs/resources/`](docs/resources/)
-> is already complete and usable.
-
-## Overview
-
-<!-- TODO: Describe what chemai is, the problem it solves, and who it is for. -->
-
-## Features
-
-<!-- TODO: List the main capabilities. -->
-
-## Installation
-
-<!-- TODO: Installation steps. -->
-
-```sh
-# TODO
-```
-
-## Usage
-
-<!-- TODO: Minimal usage example. -->
-
-```sh
-# TODO
-```
-
-## 📚 Resources
-
-This repository also maintains a curated, bilingual reference collection:
+## Resources
 
 - **[Awesome Computational Chemistry](docs/resources/awesome-computational-chemistry/README.md)**
-  — open-source projects for quantum chemistry, molecular dynamics, machine-learning potentials,
-  high-throughput workflows, cheminformatics, docking, and visualization, each with its usage
-  direction and update status.
-  ([Chinese](docs/resources/awesome-computational-chemistry/README.zh.md))
+  - open-source projects with usage direction, key features, language/license notes, and update
+    status as of June 2026.
+- **[Chinese version](docs/resources/awesome-computational-chemistry/README.zh.md)**
+  - the same collection with Chinese index and category pages.
 
-## Repository structure
+## Repository Structure
 
-```
-chemai/
-├── README.md            # this file (project overview)
-├── README.zh.md         # Chinese version
+```text
+Chemai/
+├── README.md
+├── README.zh.md
+├── CONTRIBUTING.md
+├── LICENSE
 └── docs/
     └── resources/
-        └── awesome-computational-chemistry/   # curated project collection (English + zh/)
-            ├── README.md        # collection index (English)
-            ├── README.zh.md     # collection index (Chinese)
-            ├── 01-..07-*.md     # category docs (English)
-            └── zh/              # category docs (Chinese)
+        └── awesome-computational-chemistry/
+            ├── README.md
+            ├── README.zh.md
+            ├── 01-..07-*.md
+            └── zh/
 ```
 
 ## Contributing
 
-<!-- TODO: Contribution guidelines for chemai itself. -->
-
-Contributions are welcome. For the resource collection specifically, see its
+Corrections, new project entries, status updates, and documentation improvements are welcome.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) and the resource collection's
 [contributing notes](docs/resources/awesome-computational-chemistry/README.md#-contributing).
 
 ## License
 
-<!-- TODO: Choose and add a license (for example, MIT). -->
+Unless a file states otherwise, the original documentation and curated resource collection in this
+repository are licensed under the
+[Creative Commons Attribution 4.0 International License](LICENSE).

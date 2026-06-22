@@ -1,8 +1,8 @@
-# Chemai — Awesome Computational Chemistry
+# Awesome Computational Chemistry
 
 > **🌐 Language:** <kbd>[**English**](README.md)</kbd> <kbd>[Chinese](README.zh.md)</kbd>
 >
-> 📦 Part of the [**chemai**](../../../README.md) project — see the [project README](../../../README.md).
+> 📦 Part of the [**Chemai**](../../../README.md) project — see the [project README](../../../README.md).
 
 > A continuously maintained collection of **open-source computational chemistry** projects,
 > focused on each project's **usage direction** and **update status** — to help researchers,
