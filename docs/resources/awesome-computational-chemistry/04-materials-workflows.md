@@ -21,7 +21,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
   object and a **Calculator interface** that lets one set of Python scripts drive nearly all major DFT engines
   (GPAW, QE, VASP, CP2K, …) and ML potentials, plus common algorithms (geometry optimization, NEB, phonons, MD).
   It is the de facto standard for scripted materials calculations.
-- **🔄 Update status**: 🟢 latest **v3.28.0** (2026-03-17). Actively maintained.
+- **🔄 Update status**: 🟢 latest **v3.29.0** (2026-06-21). Actively maintained.
 
 ## pymatgen (Python Materials Genomics)
 
@@ -31,7 +31,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 - **🎯 Usage direction**: the core library of the Materials Project, providing structure/symmetry analysis,
   **phase diagrams, Pourbaix diagrams, electronic-structure/band analysis, and I/O parsing (VASP/QE, …)** —
   the foundation of materials data analysis and computational pipelines.
-- **🔄 Update status**: 🟢 calendar versioning (e.g. **2026.5.18**), very frequent releases.
+- **🔄 Update status**: 🟢 calendar versioning; latest **2026.5.4** (2026-05-04), very frequent releases.
 
 ## AiiDA
 

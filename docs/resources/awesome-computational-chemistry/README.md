@@ -39,24 +39,24 @@ this folder; Chinese versions of every page live under [`zh/`](zh/).
 | Project | Category | Latest version / status | Activity |
 |---------|----------|-------------------------|----------|
 | [PySCF](01-quantum-chemistry.md#pyscf) | Quantum chemistry | v2.13.1 (2026-06) | 🟢 |
-| [Psi4](01-quantum-chemistry.md#psi4) | Quantum chemistry | v1.10 (2025-09) | 🟡 |
+| [Psi4](01-quantum-chemistry.md#psi4) | Quantum chemistry | v1.10.2 (2026-06) | 🟢 |
 | [NWChem](01-quantum-chemistry.md#nwchem) | Quantum chemistry | v7.3.1 (2025-11) | 🟡 |
 | [CP2K](01-quantum-chemistry.md#cp2k) | Quantum chemistry | Annual releases (active 2025–2026) | 🟢 |
-| [Quantum ESPRESSO](01-quantum-chemistry.md#quantum-espresso) | Quantum chemistry | v7.4.1 (2025-03) | 🟡 |
+| [Quantum ESPRESSO](01-quantum-chemistry.md#quantum-espresso) | Quantum chemistry | v7.5 (2025-08) | 🟢 |
 | [GPAW](01-quantum-chemistry.md#gpaw) | Quantum chemistry | v25.7.0 (2025-07) | 🟡 |
-| [ABINIT](01-quantum-chemistry.md#abinit) | Quantum chemistry | v10.6 (2026-02) | 🟡 |
+| [ABINIT](01-quantum-chemistry.md#abinit) | Quantum chemistry | v10.6.7 (2026-05) | 🟡 |
 | [xtb](01-quantum-chemistry.md#xtb-gfn-xtb) | Semi-empirical | GPU acceleration added (2026-05) | 🟢 |
 | [GROMACS](02-molecular-dynamics.md#gromacs) | Molecular dynamics | 2026.2 (2026 series) | 🟢 |
 | [LAMMPS](02-molecular-dynamics.md#lammps) | Molecular dynamics | stable 22Jul2025 / feature 30Mar2026 | 🟢 |
 | [OpenMM](02-molecular-dynamics.md#openmm) | Molecular dynamics | v8.5.2 (2026-06) | 🟢 |
 | [DeePMD-kit](03-ml-potentials.md#deepmd-kit) | ML potential | v3.1.x (incl. DPA3 pretrained) | 🟢 |
 | [MACE](03-ml-potentials.md#mace) | ML potential | foundation models iterating | 🟢 |
-| [MatGL](03-ml-potentials.md#matgl-materials-graph-library) | ML potential | v2.0.0 (2025-11) | 🟢 |
+| [MatGL](03-ml-potentials.md#matgl-materials-graph-library) | ML potential | v4.0.2 (2026-06) | 🟢 |
 | [fairchem](03-ml-potentials.md#fairchem-fair-chemistry) | ML potential | active (2026-06) | 🟢 |
-| [ASE](04-materials-workflows.md#ase-atomic-simulation-environment) | Workflow | v3.28.0 (2026-03) | 🟢 |
-| [pymatgen](04-materials-workflows.md#pymatgen-python-materials-genomics) | Workflow | 2026.5.18 (calendar versioning) | 🟢 |
-| [RDKit](05-cheminformatics.md#rdkit) | Cheminformatics | 2026.03.3 (2026-06) | 🟢 |
-| [Open Babel](05-cheminformatics.md#open-babel) | Cheminformatics | 3.1.1 (slow updates) | 🟠 |
+| [ASE](04-materials-workflows.md#ase-atomic-simulation-environment) | Workflow | v3.29.0 (2026-06) | 🟢 |
+| [pymatgen](04-materials-workflows.md#pymatgen-python-materials-genomics) | Workflow | 2026.5.4 (calendar versioning) | 🟢 |
+| [RDKit](05-cheminformatics.md#rdkit) | Cheminformatics | 2026.03.3 (2026-05) | 🟢 |
+| [Open Babel](05-cheminformatics.md#open-babel) | Cheminformatics | 3.2.0 (2025-05, slow updates) | 🟠 |
 | [AutoDock Vina](06-docking-drug-design.md#autodock-vina) | Docking | v1.2.7 | 🟡 |
 | [gnina](06-docking-drug-design.md#gnina) | Docking | v1.3.2 (2025-07, moved to PyTorch) | 🟢 |
 | [MDAnalysis](07-visualization-analysis.md#mdanalysis) | Trajectory analysis | active (NumPy 2 support) | 🟢 |

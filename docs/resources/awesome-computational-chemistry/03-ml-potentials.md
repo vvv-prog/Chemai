@@ -51,7 +51,7 @@ can be used directly or fine-tuned.
 - **🎯 Usage direction**: a materials graph-neural-network library integrating **M3GNet, CHGNet, MEGNet,
   TensorNet, SO3Net** and more, with **universal potentials (FMMs) and property-prediction** pretrained models
   that work out of the box and can be fine-tuned. Tightly integrated with pymatgen/ASE.
-- **🔄 Update status**: 🟢 latest **v2.0.0** (2025-11-13), switching to a PyG backend by default and adding the QET architecture.
+- **🔄 Update status**: 🟢 latest **v4.0.2** (2026-06-10). Uses a PyG backend by default and includes the QET architecture; frequent releases.
 - **🔗 Model notes**: **CHGNet** incorporates charge/magnetic-moment information; **M3GNet** includes three-body
   interactions; well suited to inorganic crystalline materials.
 

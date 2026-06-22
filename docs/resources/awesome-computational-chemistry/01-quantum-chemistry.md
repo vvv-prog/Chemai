@@ -34,7 +34,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 - **🎯 Usage direction**: high-accuracy ab initio electronic structure, especially strong at
   **SAPT (symmetry-adapted perturbation theory) interaction-energy decomposition** — well suited to
   non-covalent interaction studies and teaching. Friendly Python API (Psi4NumPy).
-- **🔄 Update status**: 🟡 latest **v1.10** (2025-09). Annual major releases, steadily maintained.
+- **🔄 Update status**: 🟢 latest **v1.10.2** (2026-06-19). Annual major releases plus regular patch releases.
 
 ## NWChem
 
@@ -64,7 +64,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 - **🎯 Usage direction**: plane-wave + pseudopotential DFT for periodic systems — standard
   calculations of **band structure, density of states, phonons (DFPT), and electron–phonon coupling**
   for solids; a common engine for materials work.
-- **🔄 Update status**: 🟡 latest stable **v7.4.1** (2025-03).
+- **🔄 Update status**: 🟢 latest stable **v7.5** (2025-08-19).
 
 ## GPAW
 
@@ -84,7 +84,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 - **🎯 Usage direction**: plane-wave DFT/DFPT, strong at **response properties, phonons, GW/BSE excited
   states**, and dielectric properties — suited to solids requiring accurate electronic excitations and
   optical properties.
-- **🔄 Update status**: 🟡 latest **v10.6** (2026-02-07), adding DMFT, spin spirals, and ARM/GPU improvements.
+- **🔄 Update status**: 🟡 latest **v10.6.7** (2026-05-09); the 10.6 series added DMFT, spin spirals, and ARM/GPU improvements.
 
 ## xtb (GFN-xTB)
 
