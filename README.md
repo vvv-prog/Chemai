@@ -1,6 +1,6 @@
-# Chemai — Awesome Computational Chemistry (计算化学开源项目精选)
+# Chemai — Awesome Computational Chemistry
 
-> **🌐 Language:** <kbd>[**English**](README.md)</kbd> <kbd>[中文](README.zh.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](README.md)</kbd> <kbd>[Chinese](README.zh.md)</kbd>
 
 > A continuously maintained collection of **open-source computational chemistry** projects,
 > focused on each project's **usage direction** and **update status** — to help researchers,
@@ -14,7 +14,7 @@ under the [`docs/`](docs/) directory (Chinese versions live under [`docs/zh/`](d
 - 🔄 **Update status**: latest version / release cadence / maintenance activity as of **June 2026**.
   Versions change over time — **the live status is whatever each project's Releases page says**
   (links are provided in the docs).
-- 🏷️ **Activity legend**: 🟢 Highly active (released within the last few months) ｜ 🟡 Steadily maintained (annual/quarterly) ｜ 🟠 Slow / occasional updates.
+- 🏷️ **Activity legend**: 🟢 Highly active (released within the last few months) | 🟡 Steadily maintained (annual/quarterly) | 🟠 Slow / occasional updates.
 
 ---
 

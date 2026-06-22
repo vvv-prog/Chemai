@@ -1,20 +1,20 @@
 # 05 · Cheminformatics
 
-> **🌐 Language:** <kbd>[**English**](05-cheminformatics.md)</kbd> <kbd>[中文](zh/05-cheminformatics.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](05-cheminformatics.md)</kbd> <kbd>[Chinese](zh/05-cheminformatics.md)</kbd>
 
 [← Back to home](../README.md)
 
 Molecular representation, reading/writing and format conversion, descriptor/fingerprint generation,
 substructure matching, conformer generation, and chemical feature engineering for machine learning.
 
-> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow updates.
 
 ---
 
 ## RDKit
 
 - **Website**: https://www.rdkit.org
-- **Repository**: https://github.com/rdkit/rdkit ｜ [Releases](https://github.com/rdkit/rdkit/releases)
+- **Repository**: https://github.com/rdkit/rdkit | [Releases](https://github.com/rdkit/rdkit/releases)
 - **Language / License**: C++ + Python / BSD-3
 - **🎯 Usage direction**: the **de facto standard** cheminformatics library. It covers molecular I/O
   (SMILES/SMARTS/Mol/SDF), **fingerprints and descriptors** (Morgan/ECFP, MACCS, physicochemical properties),
@@ -27,7 +27,7 @@ substructure matching, conformer generation, and chemical feature engineering fo
 ## Open Babel
 
 - **Website**: https://openbabel.org
-- **Repository**: https://github.com/openbabel/openbabel ｜ [Releases](https://github.com/openbabel/openbabel/releases)
+- **Repository**: https://github.com/openbabel/openbabel | [Releases](https://github.com/openbabel/openbabel/releases)
 - **Language / License**: C++ / GPL-2.0
 - **🎯 Usage direction**: the Swiss-army knife of chemical **file-format conversion** and interoperability,
   supporting **110+ formats** (e.g. PDB↔PDBQT↔MOL2↔SMILES) plus command-line/library features such as adding
@@ -37,7 +37,7 @@ substructure matching, conformer generation, and chemical feature engineering fo
 ## DeepChem
 
 - **Website**: https://deepchem.io
-- **Repository**: https://github.com/deepchem/deepchem ｜ [Releases](https://github.com/deepchem/deepchem/releases)
+- **Repository**: https://github.com/deepchem/deepchem | [Releases](https://github.com/deepchem/deepchem/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: a deep-learning toolbox for **drug discovery, materials, quantum chemistry, and biology**,
   providing many built-in datasets (MoleculeNet), featurization methods, model baselines (graph neural networks,
@@ -55,4 +55,4 @@ substructure matching, conformer generation, and chemical feature engineering fo
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | Brings RDKit featurization into scikit-learn pipelines |
 | [Indigo](https://github.com/epam/Indigo) | Another cheminformatics toolkit and rendering library (EPAM) |
 
-[← Previous: Materials Workflows](04-materials-workflows.md) ｜ [Back to home](../README.md) ｜ [Next: Docking & Drug Design →](06-docking-drug-design.md)
+[← Previous: Materials Workflows](04-materials-workflows.md) | [Back to home](../README.md) | [Next: Docking & Drug Design →](06-docking-drug-design.md)

@@ -1,6 +1,6 @@
 # 03 · Machine-Learning Potentials / Atomistic ML
 
-> **🌐 Language:** <kbd>[**English**](03-ml-potentials.md)</kbd> <kbd>[中文](zh/03-ml-potentials.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](03-ml-potentials.md)</kbd> <kbd>[Chinese](zh/03-ml-potentials.md)</kbd>
 
 [← Back to home](../README.md)
 
@@ -9,14 +9,14 @@ materials simulations at **near-DFT accuracy and near-force-field speed** over l
 time scales. Recent years have brought many **universal pretrained potentials (foundation models)** that
 can be used directly or fine-tuned.
 
-> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow updates.
 
 ---
 
 ## DeePMD-kit
 
 - **Website**: https://docs.deepmodeling.com/projects/deepmd
-- **Repository**: https://github.com/deepmodeling/deepmd-kit ｜ [Releases](https://github.com/deepmodeling/deepmd-kit/releases)
+- **Repository**: https://github.com/deepmodeling/deepmd-kit | [Releases](https://github.com/deepmodeling/deepmd-kit/releases)
 - **Language / License**: Python + C++ / LGPL-3.0
 - **🎯 Usage direction**: **training and deployment** of Deep Potential models, integrating seamlessly with
   LAMMPS, GROMACS, ASE, etc., for high-accuracy MD of large systems (materials/liquids/catalysis).
@@ -26,7 +26,7 @@ can be used directly or fine-tuned.
 
 ## MACE
 
-- **Repository**: https://github.com/ACEsuit/mace ｜ [Releases](https://github.com/ACEsuit/mace/releases)
+- **Repository**: https://github.com/ACEsuit/mace | [Releases](https://github.com/ACEsuit/mace/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: an MLIP based on **higher-order equivariant message passing**, leading in accuracy
   and efficiency and one of the most popular equivariant GNN potentials today. Provides **universal foundation
@@ -36,7 +36,7 @@ can be used directly or fine-tuned.
 
 ## NequIP / Allegro
 
-- **Repository**: https://github.com/mir-group/nequip ｜ [Allegro](https://github.com/mir-group/allegro)
+- **Repository**: https://github.com/mir-group/nequip | [Allegro](https://github.com/mir-group/allegro)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: **E(3)-equivariant graph neural network** potentials, known for being **data
   efficient** — high accuracy from a small amount of DFT data; Allegro is its **strictly local, scalable**
@@ -46,7 +46,7 @@ can be used directly or fine-tuned.
 ## MatGL (Materials Graph Library)
 
 - **Website**: https://matgl.ai
-- **Repository**: https://github.com/materialsvirtuallab/matgl ｜ [Releases](https://github.com/materialsvirtuallab/matgl/releases)
+- **Repository**: https://github.com/materialsvirtuallab/matgl | [Releases](https://github.com/materialsvirtuallab/matgl/releases)
 - **Language / License**: Python / BSD-3
 - **🎯 Usage direction**: a materials graph-neural-network library integrating **M3GNet, CHGNet, MEGNet,
   TensorNet, SO3Net** and more, with **universal potentials (FMMs) and property-prediction** pretrained models
@@ -57,7 +57,7 @@ can be used directly or fine-tuned.
 
 ## fairchem (FAIR Chemistry)
 
-- **Repository**: https://github.com/facebookresearch/fairchem ｜ [Releases](https://github.com/facebookresearch/fairchem/releases)
+- **Repository**: https://github.com/facebookresearch/fairchem | [Releases](https://github.com/facebookresearch/fairchem/releases)
 - **Language / License**: Python / MIT (some model weights under separate terms)
 - **🎯 Usage direction**: Meta FAIR's chemistry machine-learning library, originating from the **Open Catalyst**
   project; provides **universal models for catalysis/materials (e.g. UMA)** and large datasets (OC20/OC22, …),
@@ -66,7 +66,7 @@ can be used directly or fine-tuned.
 
 ## TorchANI
 
-- **Repository**: https://github.com/aiqm/torchani ｜ [Releases](https://github.com/aiqm/torchani/releases)
+- **Repository**: https://github.com/aiqm/torchani | [Releases](https://github.com/aiqm/torchani/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: the **ANI series** of neural-network potentials (focused on organic molecules, with
   ANI-1x/ANI-2x pretrained models), a PyTorch implementation that is easy to pick up for fast energies/forces
@@ -75,7 +75,7 @@ can be used directly or fine-tuned.
 
 ## SchNetPack
 
-- **Repository**: https://github.com/atomistic-machine-learning/schnetpack ｜ [Releases](https://github.com/atomistic-machine-learning/schnetpack/releases)
+- **Repository**: https://github.com/atomistic-machine-learning/schnetpack | [Releases](https://github.com/atomistic-machine-learning/schnetpack/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: an atomistic neural-network **modeling toolbox** (SchNet, PaiNN, …) with a data
   pipeline and built-in MD, suited to learning methods, research, and custom model development.
@@ -84,7 +84,7 @@ can be used directly or fine-tuned.
 ## sGDML
 
 - **Website**: http://www.sgdml.org
-- **Repository**: https://github.com/stefanch/sGDML ｜ [Releases](https://github.com/stefanch/sGDML/releases)
+- **Repository**: https://github.com/stefanch/sGDML | [Releases](https://github.com/stefanch/sGDML/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: **symmetric gradient-domain machine learning** (a kernel method) that reconstructs a
   **high-accuracy potential energy surface** for a single small molecule from very little data — ideal for
@@ -100,4 +100,4 @@ can be used directly or fine-tuned.
 - Related: [GAP/SOAP](https://github.com/libAtoms/GAP), [n2p2](https://github.com/CompPhysVienna/n2p2),
   the NequIP/Allegro ecosystem, matsciml, and others.
 
-[← Previous: Molecular Dynamics](02-molecular-dynamics.md) ｜ [Back to home](../README.md) ｜ [Next: Materials Workflows →](04-materials-workflows.md)
+[← Previous: Molecular Dynamics](02-molecular-dynamics.md) | [Back to home](../README.md) | [Next: Materials Workflows →](04-materials-workflows.md)

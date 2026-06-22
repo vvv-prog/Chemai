@@ -1,20 +1,20 @@
 # 06 · Docking & Drug Design
 
-> **🌐 Language:** <kbd>[**English**](06-docking-drug-design.md)</kbd> <kbd>[中文](zh/06-docking-drug-design.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](06-docking-drug-design.md)</kbd> <kbd>[Chinese](zh/06-docking-drug-design.md)</kbd>
 
 [← Back to home](../README.md)
 
 Predicting the binding pose and binding affinity of small-molecule ligands to protein targets, for
 **virtual screening** and lead discovery.
 
-> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow updates.
 
 ---
 
 ## AutoDock Vina
 
 - **Website**: https://vina.scripps.edu
-- **Repository**: https://github.com/ccsb-scripps/AutoDock-Vina ｜ [Releases](https://github.com/ccsb-scripps/AutoDock-Vina/releases)
+- **Repository**: https://github.com/ccsb-scripps/AutoDock-Vina | [Releases](https://github.com/ccsb-scripps/AutoDock-Vina/releases)
 - **Language / License**: C++ + Python / Apache-2.0
 - **🎯 Usage direction**: the **most popular open-source docking engine** — fast, easy to use, with Python
   bindings and a CLI; suited to routine docking and medium-scale virtual screening. Supports the Vina and
@@ -23,7 +23,7 @@ Predicting the binding pose and binding affinity of small-molecule ligands to pr
 
 ## AutoDock-GPU
 
-- **Repository**: https://github.com/ccsb-scripps/AutoDock-GPU ｜ [Releases](https://github.com/ccsb-scripps/AutoDock-GPU/releases)
+- **Repository**: https://github.com/ccsb-scripps/AutoDock-GPU | [Releases](https://github.com/ccsb-scripps/AutoDock-GPU/releases)
 - **Language / License**: C/C++ (OpenCL/CUDA) / GPL-2.0
 - **🎯 Usage direction**: a **GPU/OpenCL/CUDA-accelerated** version of AutoDock4 scoring (Lamarckian genetic
   algorithm), offering order-of-magnitude speedups over CPU for large-scale virtual screening — suited to
@@ -32,7 +32,7 @@ Predicting the binding pose and binding affinity of small-molecule ligands to pr
 
 ## smina
 
-- **Repository**: https://github.com/mwojcikowski/smina ｜ [Releases](https://github.com/mwojcikowski/smina/releases)
+- **Repository**: https://github.com/mwojcikowski/smina | [Releases](https://github.com/mwojcikowski/smina/releases)
 - **Language / License**: C++ / Apache, GPL
 - **🎯 Usage direction**: a fork of AutoDock Vina that makes **custom scoring functions and flexible energy
   minimization/scoring** easy, popular for scripted virtual screening (with friendlier input handling).
@@ -40,7 +40,7 @@ Predicting the binding pose and binding affinity of small-molecule ligands to pr
 
 ## gnina
 
-- **Repository**: https://github.com/gnina/gnina ｜ [Releases](https://github.com/gnina/gnina/releases)
+- **Repository**: https://github.com/gnina/gnina | [Releases](https://github.com/gnina/gnina/releases)
 - **Language / License**: C++ / Apache-2.0
 - **🎯 Usage direction**: a docking tool built on smina that integrates **convolutional neural network (CNN)
   scoring**, using deep learning to score and re-rank binding poses — typically improving scoring/ranking
@@ -63,4 +63,4 @@ Predicting the binding pose and binding affinity of small-molecule ligands to pr
 > Tip: ligand preparation before docking is often done with **Open Babel** ([see Cheminformatics](05-cheminformatics.md))
 > or Meeko for PDBQT conversion.
 
-[← Previous: Cheminformatics](05-cheminformatics.md) ｜ [Back to home](../README.md) ｜ [Next: Trajectory Analysis & Visualization →](07-visualization-analysis.md)
+[← Previous: Cheminformatics](05-cheminformatics.md) | [Back to home](../README.md) | [Next: Trajectory Analysis & Visualization →](07-visualization-analysis.md)

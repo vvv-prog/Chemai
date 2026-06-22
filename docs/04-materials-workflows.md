@@ -1,6 +1,6 @@
 # 04 · Materials Modeling & High-throughput Workflows
 
-> **🌐 Language:** <kbd>[**English**](04-materials-workflows.md)</kbd> <kbd>[中文](zh/04-materials-workflows.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](04-materials-workflows.md)</kbd> <kbd>[Chinese](zh/04-materials-workflows.md)</kbd>
 
 [← Back to home](../README.md)
 
@@ -8,7 +8,7 @@ Building and manipulating atomic structures, providing a unified interface to th
 engines, and handling the **automation, job management, and data provenance** of high-throughput computing.
 This is the layer that connects "calculation engines" to large-scale scientific output.
 
-> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow updates.
 
 ---
 
@@ -26,7 +26,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 ## pymatgen (Python Materials Genomics)
 
 - **Website**: https://pymatgen.org
-- **Repository**: https://github.com/materialsproject/pymatgen ｜ [Releases](https://github.com/materialsproject/pymatgen/releases)
+- **Repository**: https://github.com/materialsproject/pymatgen | [Releases](https://github.com/materialsproject/pymatgen/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: the core library of the Materials Project, providing structure/symmetry analysis,
   **phase diagrams, Pourbaix diagrams, electronic-structure/band analysis, and I/O parsing (VASP/QE, …)** —
@@ -36,7 +36,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 ## AiiDA
 
 - **Website**: https://www.aiida.net
-- **Repository**: https://github.com/aiidateam/aiida-core ｜ [Releases](https://github.com/aiidateam/aiida-core/releases)
+- **Repository**: https://github.com/aiidateam/aiida-core | [Releases](https://github.com/aiidateam/aiida-core/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: a **workflow engine + data provenance** platform for high-throughput computing that
   automatically records every calculation's inputs/outputs/dependencies for **reproducibility**, and schedules
@@ -45,7 +45,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 
 ## atomate2
 
-- **Repository**: https://github.com/materialsproject/atomate2 ｜ [Releases](https://github.com/materialsproject/atomate2/releases)
+- **Repository**: https://github.com/materialsproject/atomate2 | [Releases](https://github.com/materialsproject/atomate2/releases)
 - **Language / License**: Python / modified BSD
 - **🎯 Usage direction**: a **modular materials-workflow library** that packages the standard pipelines (relaxation,
   band structure, phonons, elastic constants, …) for VASP, QE, and ML potentials such as CHGNet/M3GNet/MACE/NequIP
@@ -55,7 +55,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 ## FireWorks
 
 - **Website**: https://materialsproject.github.io/fireworks
-- **Repository**: https://github.com/materialsproject/fireworks ｜ [Releases](https://github.com/materialsproject/fireworks/releases)
+- **Repository**: https://github.com/materialsproject/fireworks | [Releases](https://github.com/materialsproject/fireworks/releases)
 - **Language / License**: Python / modified BSD
 - **🎯 Usage direction**: **definition, storage (MongoDB), and cluster execution/dispatch** of workflows
   (Workflow / FireWork / FireTask), with support for dynamic workflows and failure retries; often the execution
@@ -65,7 +65,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 ## Custodian
 
 - **Website**: https://materialsproject.github.io/custodian
-- **Repository**: https://github.com/materialsproject/custodian ｜ [Releases](https://github.com/materialsproject/custodian/releases)
+- **Repository**: https://github.com/materialsproject/custodian | [Releases](https://github.com/materialsproject/custodian/releases)
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: a **"babysitting" and just-in-time (JIT) error-recovery** framework for calculations —
   it wraps programs like VASP/QE with error detection and automatic correction logic (e.g. fixing non-convergence,
@@ -84,4 +84,4 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 | [matminer](https://github.com/hackingmaterials/matminer) | Materials data mining and feature engineering |
 | [OPTIMADE](https://github.com/Materials-Consortia/OPTIMADE) | A standard API for unified queries across materials databases |
 
-[← Previous: ML Potentials](03-ml-potentials.md) ｜ [Back to home](../README.md) ｜ [Next: Cheminformatics →](05-cheminformatics.md)
+[← Previous: ML Potentials](03-ml-potentials.md) | [Back to home](../README.md) | [Next: Cheminformatics →](05-cheminformatics.md)

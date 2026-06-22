@@ -1,6 +1,6 @@
 # 01 · Quantum Chemistry & Electronic Structure
 
-> **🌐 Language:** <kbd>[**English**](01-quantum-chemistry.md)</kbd> <kbd>[中文](zh/01-quantum-chemistry.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](01-quantum-chemistry.md)</kbd> <kbd>[Chinese](zh/01-quantum-chemistry.md)</kbd>
 
 [← Back to home](../README.md)
 
@@ -8,14 +8,14 @@ Solving the electronic structure (HF, DFT, post-HF, semi-empirical, …) for ene
 optimization, reaction paths, spectra, and electronic properties of molecules and solids.
 
 > 🔄 **Update status** is as of **June 2026**. Versions change over time — click each project's
-> Releases link for the live status. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow/occasional.
+> Releases link for the live status. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow/occasional.
 
 ---
 
 ## PySCF
 
 - **Website**: https://pyscf.org
-- **Repository**: https://github.com/pyscf/pyscf ｜ [Releases](https://github.com/pyscf/pyscf/releases)
+- **Repository**: https://github.com/pyscf/pyscf | [Releases](https://github.com/pyscf/pyscf/releases)
 - **Language / License**: Python + C / Apache-2.0
 - **🎯 Usage direction**: a Python-native quantum chemistry library covering HF, DFT, MP2, CCSD(T),
   CASSCF/CASPT2, TDDFT, and more. It works for routine molecular calculations and is also a
@@ -29,7 +29,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## Psi4
 
 - **Website**: https://psicode.org
-- **Repository**: https://github.com/psi4/psi4 ｜ [Releases](https://github.com/psi4/psi4/releases)
+- **Repository**: https://github.com/psi4/psi4 | [Releases](https://github.com/psi4/psi4/releases)
 - **Language / License**: C++ + Python / LGPL-3.0
 - **🎯 Usage direction**: high-accuracy ab initio electronic structure, especially strong at
   **SAPT (symmetry-adapted perturbation theory) interaction-energy decomposition** — well suited to
@@ -39,7 +39,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## NWChem
 
 - **Website**: https://nwchemgit.github.io
-- **Repository**: https://github.com/nwchemgit/nwchem ｜ [Releases](https://github.com/nwchemgit/nwchem/releases)
+- **Repository**: https://github.com/nwchemgit/nwchem | [Releases](https://github.com/nwchemgit/nwchem/releases)
 - **Language / License**: Fortran + C / ECL-2.0
 - **🎯 Usage direction**: a high-performance computational chemistry suite built for **massively
   parallel HPC**, covering both molecular quantum chemistry and plane-wave DFT — suitable for large
@@ -49,7 +49,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## CP2K
 
 - **Website**: https://www.cp2k.org
-- **Repository**: https://github.com/cp2k/cp2k ｜ [Releases](https://github.com/cp2k/cp2k/releases)
+- **Repository**: https://github.com/cp2k/cp2k | [Releases](https://github.com/cp2k/cp2k/releases)
 - **Language / License**: Fortran / GPL-2.0
 - **🎯 Usage direction**: electronic structure and **ab initio molecular dynamics (AIMD)** for
   condensed-phase, surface/interface, and liquid systems, using the mixed Gaussian/plane-wave
@@ -59,7 +59,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## Quantum ESPRESSO
 
 - **Website**: https://www.quantum-espresso.org
-- **Repository**: https://github.com/QEF/q-e ｜ [Releases](https://github.com/QEF/q-e/releases)
+- **Repository**: https://github.com/QEF/q-e | [Releases](https://github.com/QEF/q-e/releases)
 - **Language / License**: Fortran / GPL-2.0
 - **🎯 Usage direction**: plane-wave + pseudopotential DFT for periodic systems — standard
   calculations of **band structure, density of states, phonons (DFPT), and electron–phonon coupling**
@@ -79,7 +79,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## ABINIT
 
 - **Website**: https://www.abinit.org
-- **Repository**: https://github.com/abinit/abinit ｜ [Releases](https://github.com/abinit/abinit/releases)
+- **Repository**: https://github.com/abinit/abinit | [Releases](https://github.com/abinit/abinit/releases)
 - **Language / License**: Fortran / GPL-3.0
 - **🎯 Usage direction**: plane-wave DFT/DFPT, strong at **response properties, phonons, GW/BSE excited
   states**, and dielectric properties — suited to solids requiring accurate electronic excitations and
@@ -89,7 +89,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## xtb (GFN-xTB)
 
 - **Website**: https://xtb-docs.readthedocs.io
-- **Repository**: https://github.com/grimme-lab/xtb ｜ [Releases](https://github.com/grimme-lab/xtb/releases)
+- **Repository**: https://github.com/grimme-lab/xtb | [Releases](https://github.com/grimme-lab/xtb/releases)
 - **Language / License**: Fortran / LGPL-3.0
 - **🎯 Usage direction**: semi-empirical **extended tight-binding** methods (GFN0/1/2-xTB) that deliver
   geometry optimization, frequencies, and energies at near-force-field speed; commonly used as a
@@ -103,7 +103,7 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 ## DFTB+
 
 - **Website**: https://dftbplus.org
-- **Repository**: https://github.com/dftbplus/dftbplus ｜ [Releases](https://github.com/dftbplus/dftbplus/releases)
+- **Repository**: https://github.com/dftbplus/dftbplus | [Releases](https://github.com/dftbplus/dftbplus/releases)
 - **Language / License**: Fortran / LGPL-3.0
 - **🎯 Usage direction**: an implementation of density-functional tight-binding (DFTB) and xTB methods —
   **fast semi-empirical electronic structure** between DFT and classical force fields, for geometry/dynamics
@@ -121,4 +121,4 @@ optimization, reaction paths, spectra, and electronic properties of molecules an
 | [CREST](https://github.com/crest-lab/crest) | xtb-based automated conformer sampling; used together with xtb |
 | [Dalton](https://gitlab.com/dalton/dalton) | Strong at molecular properties (response theory, NMR, magnetic properties) |
 
-[← Back to home](../README.md) ｜ [Next: Molecular Dynamics →](02-molecular-dynamics.md)
+[← Back to home](../README.md) | [Next: Molecular Dynamics →](02-molecular-dynamics.md)

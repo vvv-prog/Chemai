@@ -1,20 +1,20 @@
 # 02 · Molecular Dynamics
 
-> **🌐 Language:** <kbd>[**English**](02-molecular-dynamics.md)</kbd> <kbd>[中文](zh/02-molecular-dynamics.md)</kbd>
+> **🌐 Language:** <kbd>[**English**](02-molecular-dynamics.md)</kbd> <kbd>[Chinese](zh/02-molecular-dynamics.md)</kbd>
 
 [← Back to home](../README.md)
 
 Classical and enhanced-sampling molecular dynamics (MD) for the dynamics, thermodynamic properties,
 and free-energy calculations of biomolecules, soft matter, and materials.
 
-> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active | 🟡 Steadily maintained | 🟠 Slow updates.
 
 ---
 
 ## GROMACS
 
 - **Website**: https://www.gromacs.org
-- **Repository**: https://github.com/gromacs/gromacs ｜ [Downloads](https://manual.gromacs.org/current/download.html)
+- **Repository**: https://github.com/gromacs/gromacs | [Downloads](https://manual.gromacs.org/current/download.html)
 - **Language / License**: C++ / LGPL-2.1
 - **🎯 Usage direction**: the workhorse engine for biomolecular MD — **extremely fast and very
   GPU-optimized**, widely used for proteins, nucleic acids, and membranes, and for **free-energy
@@ -27,7 +27,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 ## LAMMPS
 
 - **Website**: https://www.lammps.org
-- **Repository**: https://github.com/lammps/lammps ｜ [Releases](https://github.com/lammps/lammps/releases)
+- **Repository**: https://github.com/lammps/lammps | [Releases](https://github.com/lammps/lammps/releases)
 - **Language / License**: C++ / GPL-2.0
 - **🎯 Usage direction**: **large-scale parallel MD** for materials and soft matter with an enormous
   range of force fields/potentials (metals, polymers, granular, reactive ReaxFF, ML potentials, …),
@@ -39,7 +39,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 ## OpenMM
 
 - **Website**: https://openmm.org
-- **Repository**: https://github.com/openmm/openmm ｜ [Releases](https://github.com/openmm/openmm/releases)
+- **Repository**: https://github.com/openmm/openmm | [Releases](https://github.com/openmm/openmm/releases)
 - **Language / License**: C++ + Python / MIT, LGPL
 - **🎯 Usage direction**: a GPU-accelerated MD **toolkit/library** with an extremely flexible Python API —
   great for custom force fields, custom integrators, and **embedding ML potentials into MD**
@@ -50,7 +50,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 ## HOOMD-blue
 
 - **Website**: https://hoomd-blue.readthedocs.io
-- **Repository**: https://github.com/glotzerlab/hoomd-blue ｜ [Releases](https://github.com/glotzerlab/hoomd-blue/releases)
+- **Repository**: https://github.com/glotzerlab/hoomd-blue | [Releases](https://github.com/glotzerlab/hoomd-blue/releases)
 - **Language / License**: C++ + Python / BSD-3
 - **🎯 Usage direction**: GPU-oriented **coarse-grained / colloidal / self-assembly** simulation,
   supporting both molecular dynamics and Monte Carlo (HPMC); Python-driven and common in soft-matter
@@ -60,7 +60,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 ## ESPResSo
 
 - **Website**: https://espressomd.org
-- **Repository**: https://github.com/espressomd/espresso ｜ [Releases](https://github.com/espressomd/espresso/releases)
+- **Repository**: https://github.com/espressomd/espresso | [Releases](https://github.com/espressomd/espresso/releases)
 - **Language / License**: C++ + Python / GPL-3.0
 - **🎯 Usage direction**: **soft matter and complex fluids** (polyelectrolytes, charged colloids,
   surfactants), with lattice-Boltzmann hydrodynamic coupling and long-range electrostatics (P3M).
@@ -69,7 +69,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 ## AmberTools
 
 - **Website**: https://ambermd.org/AmberTools.php
-- **Repository**: https://github.com/Amber-MD ｜ downloads on the website
+- **Repository**: https://github.com/Amber-MD | downloads on the website
 - **Language / License**: C/C++/Python / GPL and others (**open-source portion**)
 - **🎯 Usage direction**: the **free, open-source** components of the Amber ecosystem — system building
   (tleap), force-field parameterization (antechamber/GAFF), **MM-PBSA/GBSA binding free energies**, and
@@ -87,4 +87,4 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 | [OpenFF Toolkit](https://github.com/openforcefield/openff-toolkit) | Open-source small-molecule force fields (SMIRNOFF) and parameterization tools |
 | Amber (pmemd) / Desmond | Commercial / paid licenses — outside this open-source list |
 
-[← Previous: Quantum Chemistry](01-quantum-chemistry.md) ｜ [Back to home](../README.md) ｜ [Next: ML Potentials →](03-ml-potentials.md)
+[← Previous: Quantum Chemistry](01-quantum-chemistry.md) | [Back to home](../README.md) | [Next: ML Potentials →](03-ml-potentials.md)
