@@ -1,91 +1,103 @@
-# 03 · 机器学习势函数 / 原子尺度机器学习
+# 03 · Machine-Learning Potentials / Atomistic ML
 
-> 🌐 **中文** ｜ [English](en/03-ml-potentials.md)
+> **🌐 Language:** <kbd>[**English**](03-ml-potentials.md)</kbd> <kbd>[中文](zh/03-ml-potentials.md)</kbd>
 
-[← 返回首页](../README.md)
+[← Back to home](../README.md)
 
-用机器学习拟合势能面（MLIP / NNP），以**接近 DFT 的精度、接近经典力场的速度**，
-进行大体系、长时间尺度的分子动力学与材料模拟。近年大量出现**通用预训练势（基础模型）**，可直接使用或微调。
+Using machine learning to fit the potential energy surface (MLIP / NNP) to run molecular dynamics and
+materials simulations at **near-DFT accuracy and near-force-field speed** over large systems and long
+time scales. Recent years have brought many **universal pretrained potentials (foundation models)** that
+can be used directly or fine-tuned.
 
-> 🔄 **更新情况** 截至 **2026 年 6 月**。活跃度：🟢 高度活跃 ｜ 🟡 稳定维护 ｜ 🟠 缓慢更新。
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
 
 ---
 
 ## DeePMD-kit
 
-- **官网**：https://docs.deepmodeling.com/projects/deepmd
-- **代码仓库**：https://github.com/deepmodeling/deepmd-kit ｜ [Releases](https://github.com/deepmodeling/deepmd-kit/releases)
-- **语言 / 许可**：Python + C++ / LGPL-3.0
-- **🎯 使用方向**：Deep Potential（深度势能）模型的**训练与部署**，与 LAMMPS、GROMACS、ASE 等无缝对接，
-  适合材料/液体/催化等大体系的高精度 MD。提供 **DPA 系列通用预训练大模型**。
-- **🔄 更新情况**：🟢 **v3.1.x** 系列；新增内置可直接下载的预训练模型（如 **DPA3**）、分布式训练与更多优化器。开发非常活跃（DeepModeling 社区）。
+- **Website**: https://docs.deepmodeling.com/projects/deepmd
+- **Repository**: https://github.com/deepmodeling/deepmd-kit ｜ [Releases](https://github.com/deepmodeling/deepmd-kit/releases)
+- **Language / License**: Python + C++ / LGPL-3.0
+- **🎯 Usage direction**: **training and deployment** of Deep Potential models, integrating seamlessly with
+  LAMMPS, GROMACS, ASE, etc., for high-accuracy MD of large systems (materials/liquids/catalysis).
+  Provides the **DPA series of universal pretrained models**.
+- **🔄 Update status**: 🟢 **v3.1.x** series; adds built-in downloadable pretrained models (e.g. **DPA3**),
+  distributed training, and more optimizers. Very active (DeepModeling community).
 
 ## MACE
 
-- **代码仓库**：https://github.com/ACEsuit/mace ｜ [Releases](https://github.com/ACEsuit/mace/releases)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：基于**高阶等变消息传递**的 MLIP，精度与效率领先，是当前最受欢迎的等变 GNN 势之一。
-  提供覆盖周期表的**通用基础模型** [mace-foundations](https://github.com/ACEsuit/mace-foundations)（如 MACE-MP、MACE-OFF、MACE-MH），可直接用于材料/分子/表面体系。
-- **🔄 更新情况**：🟢 高度活跃，基础模型与代码持续迭代。
+- **Repository**: https://github.com/ACEsuit/mace ｜ [Releases](https://github.com/ACEsuit/mace/releases)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: an MLIP based on **higher-order equivariant message passing**, leading in accuracy
+  and efficiency and one of the most popular equivariant GNN potentials today. Provides **universal foundation
+  models** [mace-foundations](https://github.com/ACEsuit/mace-foundations) (e.g. MACE-MP, MACE-OFF, MACE-MH)
+  usable out of the box across materials/molecular/surface systems.
+- **🔄 Update status**: 🟢 highly active; foundation models and code iterate continuously.
 
 ## NequIP / Allegro
 
-- **代码仓库**：https://github.com/mir-group/nequip ｜ [Allegro](https://github.com/mir-group/allegro)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：**E(3) 等变图神经网络**势，以**数据高效**著称——少量 DFT 数据即可获得高精度；
-  Allegro 为其**严格局域、可扩展**的变体，适合超大体系并行。
-- **🔄 更新情况**：🟢 活跃维护（近期仍有更新）。
+- **Repository**: https://github.com/mir-group/nequip ｜ [Allegro](https://github.com/mir-group/allegro)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: **E(3)-equivariant graph neural network** potentials, known for being **data
+  efficient** — high accuracy from a small amount of DFT data; Allegro is its **strictly local, scalable**
+  variant, suited to very large systems in parallel.
+- **🔄 Update status**: 🟢 actively maintained (recent updates).
 
-## MatGL（Materials Graph Library）
+## MatGL (Materials Graph Library)
 
-- **官网**：https://matgl.ai
-- **代码仓库**：https://github.com/materialsvirtuallab/matgl ｜ [Releases](https://github.com/materialsvirtuallab/matgl/releases)
-- **语言 / 许可**：Python / BSD-3
-- **🎯 使用方向**：材料图神经网络库，集成 **M3GNet、CHGNet、MEGNet、TensorNet、SO3Net** 等架构，
-  含**通用势（FMM）与性质预测**预训练模型，开箱即用、可微调。与 pymatgen/ASE 紧密集成。
-- **🔄 更新情况**：🟢 最新 **v2.0.0**（2025-11-13），默认改用 PyG 后端、新增 QET 架构。
-- **🔗 模型说明**：**CHGNet** 引入电荷/磁矩信息；**M3GNet** 含三体相互作用；适合无机晶体材料。
+- **Website**: https://matgl.ai
+- **Repository**: https://github.com/materialsvirtuallab/matgl ｜ [Releases](https://github.com/materialsvirtuallab/matgl/releases)
+- **Language / License**: Python / BSD-3
+- **🎯 Usage direction**: a materials graph-neural-network library integrating **M3GNet, CHGNet, MEGNet,
+  TensorNet, SO3Net** and more, with **universal potentials (FMMs) and property-prediction** pretrained models
+  that work out of the box and can be fine-tuned. Tightly integrated with pymatgen/ASE.
+- **🔄 Update status**: 🟢 latest **v2.0.0** (2025-11-13), switching to a PyG backend by default and adding the QET architecture.
+- **🔗 Model notes**: **CHGNet** incorporates charge/magnetic-moment information; **M3GNet** includes three-body
+  interactions; well suited to inorganic crystalline materials.
 
-## fairchem（FAIR Chemistry）
+## fairchem (FAIR Chemistry)
 
-- **代码仓库**：https://github.com/facebookresearch/fairchem ｜ [Releases](https://github.com/facebookresearch/fairchem/releases)
-- **语言 / 许可**：Python / MIT（部分模型权重另有许可）
-- **🎯 使用方向**：Meta FAIR 的化学机器学习库，源自 **Open Catalyst** 项目，
-  提供**催化/材料的通用大模型（如 UMA）**与大规模数据集（OC20/OC22 等），面向催化剂筛选与材料发现。
-- **🔄 更新情况**：🟢 高度活跃（2026-06 仍有更新）。
+- **Repository**: https://github.com/facebookresearch/fairchem ｜ [Releases](https://github.com/facebookresearch/fairchem/releases)
+- **Language / License**: Python / MIT (some model weights under separate terms)
+- **🎯 Usage direction**: Meta FAIR's chemistry machine-learning library, originating from the **Open Catalyst**
+  project; provides **universal models for catalysis/materials (e.g. UMA)** and large datasets (OC20/OC22, …),
+  geared toward catalyst screening and materials discovery.
+- **🔄 Update status**: 🟢 highly active (still updated as of 2026-06).
 
 ## TorchANI
 
-- **代码仓库**：https://github.com/aiqm/torchani ｜ [Releases](https://github.com/aiqm/torchani/releases)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：**ANI 系列**神经网络势（侧重有机分子，含 ANI-1x/ANI-2x 预训练模型），
-  PyTorch 实现、易上手，适合有机/药物分子的快速势能与力计算。
-- **🔄 更新情况**：🟡 稳定维护（2025 仍有更新）。
+- **Repository**: https://github.com/aiqm/torchani ｜ [Releases](https://github.com/aiqm/torchani/releases)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: the **ANI series** of neural-network potentials (focused on organic molecules, with
+  ANI-1x/ANI-2x pretrained models), a PyTorch implementation that is easy to pick up for fast energies/forces
+  of organic/drug-like molecules.
+- **🔄 Update status**: 🟡 steadily maintained (still updated in 2025).
 
 ## SchNetPack
 
-- **代码仓库**：https://github.com/atomistic-machine-learning/schnetpack ｜ [Releases](https://github.com/atomistic-machine-learning/schnetpack/releases)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：原子神经网络**建模工具箱**（SchNet、PaiNN 等），含数据管线与内置 MD，
-  适合方法学习、研究与自定义模型开发。
-- **🔄 更新情况**：🟡 SchNetPack **2.0** 系列，稳定维护。
+- **Repository**: https://github.com/atomistic-machine-learning/schnetpack ｜ [Releases](https://github.com/atomistic-machine-learning/schnetpack/releases)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: an atomistic neural-network **modeling toolbox** (SchNet, PaiNN, …) with a data
+  pipeline and built-in MD, suited to learning methods, research, and custom model development.
+- **🔄 Update status**: 🟡 SchNetPack **2.0** series, steadily maintained.
 
 ## sGDML
 
-- **官网**：http://www.sgdml.org
-- **代码仓库**：https://github.com/stefanch/sGDML ｜ [Releases](https://github.com/stefanch/sGDML/releases)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：**对称梯度域机器学习**（核方法），对单个小分子可用极少数据重构**高精度势能面**，
-  适合精确动力学/光谱研究（不追求跨体系通用性）。
-- **🔄 更新情况**：🟠 偶尔更新。
+- **Website**: http://www.sgdml.org
+- **Repository**: https://github.com/stefanch/sGDML ｜ [Releases](https://github.com/stefanch/sGDML/releases)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: **symmetric gradient-domain machine learning** (a kernel method) that reconstructs a
+  **high-accuracy potential energy surface** for a single small molecule from very little data — ideal for
+  accurate dynamics/spectroscopy studies (not aimed at cross-system generality).
+- **🔄 Update status**: 🟠 occasional updates.
 
 ---
 
-## 扩展资源
+## Further resources
 
-- 📊 [best-of-atomistic-machine-learning](https://github.com/JuDFTteam/best-of-atomistic-machine-learning)：
-  按热度排名的原子尺度机器学习项目大全，持续更新，可作为本节的延伸目录。
-- 相关：[GAP/SOAP](https://github.com/libAtoms/GAP)、[n2p2](https://github.com/CompPhysVienna/n2p2)、
-  [Nequip/Allegro 生态]、[matsciml] 等。
+- 📊 [best-of-atomistic-machine-learning](https://github.com/JuDFTteam/best-of-atomistic-machine-learning):
+  a continuously updated, popularity-ranked catalog of atomistic ML projects — a good extension of this section.
+- Related: [GAP/SOAP](https://github.com/libAtoms/GAP), [n2p2](https://github.com/CompPhysVienna/n2p2),
+  the NequIP/Allegro ecosystem, matsciml, and others.
 
-[← 上一类：分子动力学](02-molecular-dynamics.md) ｜ [返回首页](../README.md) ｜ [下一类：材料高通量工作流 →](04-materials-workflows.md)
+[← Previous: Molecular Dynamics](02-molecular-dynamics.md) ｜ [Back to home](../README.md) ｜ [Next: Materials Workflows →](04-materials-workflows.md)

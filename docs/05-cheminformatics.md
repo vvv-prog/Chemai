@@ -1,56 +1,58 @@
-# 05 · 化学信息学
+# 05 · Cheminformatics
 
-> 🌐 **中文** ｜ [English](en/05-cheminformatics.md)
+> **🌐 Language:** <kbd>[**English**](05-cheminformatics.md)</kbd> <kbd>[中文](zh/05-cheminformatics.md)</kbd>
 
-[← 返回首页](../README.md)
+[← Back to home](../README.md)
 
-分子的表示、读写与格式转换、描述符/指纹生成、子结构匹配、构象生成，
-以及面向机器学习的化学特征工程。
+Molecular representation, reading/writing and format conversion, descriptor/fingerprint generation,
+substructure matching, conformer generation, and chemical feature engineering for machine learning.
 
-> 🔄 **更新情况** 截至 **2026 年 6 月**。活跃度：🟢 高度活跃 ｜ 🟡 稳定维护 ｜ 🟠 缓慢更新。
+> 🔄 **Update status** is as of **June 2026**. Activity: 🟢 Highly active ｜ 🟡 Steadily maintained ｜ 🟠 Slow updates.
 
 ---
 
 ## RDKit
 
-- **官网**：https://www.rdkit.org
-- **代码仓库**：https://github.com/rdkit/rdkit ｜ [Releases](https://github.com/rdkit/rdkit/releases)
-- **语言 / 许可**：C++ + Python / BSD-3
-- **🎯 使用方向**：化学信息学的**事实标准库**。功能涵盖：分子读写（SMILES/SMARTS/Mol/SDF）、
-  **指纹与描述符**（Morgan/ECFP、MACCS、物化性质）、子结构搜索、**构象生成（ETKDG）**、
-  分子对齐、反应处理、相似性计算，以及为 QSAR/机器学习准备特征。
-- **✨ 主要特性**：成熟稳定、文档完善，是几乎所有药物发现/化学 ML 流程的基础依赖；可与 Pandas（PandasTools）联用。
-- **🔄 更新情况**：🟢 最新 **2026.03.3**（2026-06-05）。每季度发布（YYYY.MM.patch），维护非常活跃。
+- **Website**: https://www.rdkit.org
+- **Repository**: https://github.com/rdkit/rdkit ｜ [Releases](https://github.com/rdkit/rdkit/releases)
+- **Language / License**: C++ + Python / BSD-3
+- **🎯 Usage direction**: the **de facto standard** cheminformatics library. It covers molecular I/O
+  (SMILES/SMARTS/Mol/SDF), **fingerprints and descriptors** (Morgan/ECFP, MACCS, physicochemical properties),
+  substructure search, **conformer generation (ETKDG)**, molecular alignment, reaction handling, similarity, and
+  feature preparation for QSAR/ML.
+- **✨ Highlights**: mature, stable, well-documented; the base dependency for almost every drug-discovery / chemical
+  ML pipeline; integrates with Pandas (PandasTools).
+- **🔄 Update status**: 🟢 latest **2026.03.3** (2026-06-05). Quarterly releases (YYYY.MM.patch), very actively maintained.
 
 ## Open Babel
 
-- **官网**：https://openbabel.org
-- **代码仓库**：https://github.com/openbabel/openbabel ｜ [Releases](https://github.com/openbabel/openbabel/releases)
-- **语言 / 许可**：C++ / GPL-2.0
-- **🎯 使用方向**：化学**文件格式转换**与互操作的瑞士军刀，支持 **110+ 种格式**互转
-  （如 PDB↔PDBQT↔MOL2↔SMILES），并提供加氢、生成 3D 坐标、简单力场优化等命令行/库功能；
-  在对接前的配体准备中很常用。
-- **🔄 更新情况**：🟠 稳定但更新缓慢，主版本 **3.1.1**（2020），主要做小修维护。
+- **Website**: https://openbabel.org
+- **Repository**: https://github.com/openbabel/openbabel ｜ [Releases](https://github.com/openbabel/openbabel/releases)
+- **Language / License**: C++ / GPL-2.0
+- **🎯 Usage direction**: the Swiss-army knife of chemical **file-format conversion** and interoperability,
+  supporting **110+ formats** (e.g. PDB↔PDBQT↔MOL2↔SMILES) plus command-line/library features such as adding
+  hydrogens, generating 3D coordinates, and simple force-field optimization; common in ligand preparation before docking.
+- **🔄 Update status**: 🟠 stable but slow; main version **3.1.1** (2020), mostly minor maintenance.
 
 ## DeepChem
 
-- **官网**：https://deepchem.io
-- **代码仓库**：https://github.com/deepchem/deepchem ｜ [Releases](https://github.com/deepchem/deepchem/releases)
-- **语言 / 许可**：Python / MIT
-- **🎯 使用方向**：面向**药物发现、材料、量子化学与生物**的深度学习工具箱，提供大量内置数据集
-  （MoleculeNet）、特征化方法、模型基线（图神经网络、序列模型等）与端到端示例，
-  适合快速搭建化学/生命科学的机器学习基线。
-- **🔄 更新情况**：🟢 活跃维护，持续扩展模型与数据支持。
+- **Website**: https://deepchem.io
+- **Repository**: https://github.com/deepchem/deepchem ｜ [Releases](https://github.com/deepchem/deepchem/releases)
+- **Language / License**: Python / MIT
+- **🎯 Usage direction**: a deep-learning toolbox for **drug discovery, materials, quantum chemistry, and biology**,
+  providing many built-in datasets (MoleculeNet), featurization methods, model baselines (graph neural networks,
+  sequence models, …), and end-to-end examples — good for quickly building chemical/life-science ML baselines.
+- **🔄 Update status**: 🟢 actively maintained, continually expanding model and data support.
 
 ---
 
-## 同方向值得了解
+## Also worth knowing
 
-| 项目 | 说明 |
-|------|------|
-| [Chemprop](https://github.com/chemprop/chemprop) | 基于消息传递神经网络（D-MPNN）的分子性质预测，工业界常用 |
-| [datamol](https://github.com/datamol-io/datamol) | 基于 RDKit 的高层易用封装，简化常见化学信息学操作 |
-| [scikit-mol](https://github.com/EBjerrum/scikit-mol) | 将 RDKit 特征化接入 scikit-learn 管线 |
-| [Indigo](https://github.com/epam/Indigo) | 另一套化学信息学工具与渲染库（EPAM） |
+| Project | Notes |
+|---------|-------|
+| [Chemprop](https://github.com/chemprop/chemprop) | Molecular property prediction via message-passing neural networks (D-MPNN); popular in industry |
+| [datamol](https://github.com/datamol-io/datamol) | A high-level, ergonomic wrapper around RDKit that simplifies common cheminformatics operations |
+| [scikit-mol](https://github.com/EBjerrum/scikit-mol) | Brings RDKit featurization into scikit-learn pipelines |
+| [Indigo](https://github.com/epam/Indigo) | Another cheminformatics toolkit and rendering library (EPAM) |
 
-[← 上一类：材料高通量工作流](04-materials-workflows.md) ｜ [返回首页](../README.md) ｜ [下一类：分子对接与药物设计 →](06-docking-drug-design.md)
+[← Previous: Materials Workflows](04-materials-workflows.md) ｜ [Back to home](../README.md) ｜ [Next: Docking & Drug Design →](06-docking-drug-design.md)
