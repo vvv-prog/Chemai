@@ -36,27 +36,27 @@
 | 项目 | 分类 | 最新版本 / 状态 | 活跃度 |
 |------|------|----------------|--------|
 | [PySCF](zh/01-quantum-chemistry.md#pyscf) | 量子化学 | v2.13.1（2026-06） | 🟢 |
-| [Psi4](zh/01-quantum-chemistry.md#psi4) | 量子化学 | v1.10（2025-09） | 🟡 |
+| [Psi4](zh/01-quantum-chemistry.md#psi4) | 量子化学 | v1.10.2（2026-06） | 🟢 |
 | [NWChem](zh/01-quantum-chemistry.md#nwchem) | 量子化学 | v7.3.1（2025-11） | 🟡 |
 | [CP2K](zh/01-quantum-chemistry.md#cp2k) | 量子化学 | 年度发布（2025–2026 活跃） | 🟢 |
-| [Quantum ESPRESSO](zh/01-quantum-chemistry.md#quantum-espresso) | 量子化学 | v7.4.1（2025-03） | 🟡 |
+| [Quantum ESPRESSO](zh/01-quantum-chemistry.md#quantum-espresso) | 量子化学 | v7.5（2025-08） | 🟢 |
 | [GPAW](zh/01-quantum-chemistry.md#gpaw) | 量子化学 | v25.7.0（2025-07） | 🟡 |
-| [ABINIT](zh/01-quantum-chemistry.md#abinit) | 量子化学 | v10.6（2026-02） | 🟡 |
+| [ABINIT](zh/01-quantum-chemistry.md#abinit) | 量子化学 | v10.6.7（2026-05） | 🟡 |
 | [xtb](zh/01-quantum-chemistry.md#xtbgfn-xtb) | 半经验 | 新增 GPU 加速（2026-05） | 🟢 |
 | [GROMACS](zh/02-molecular-dynamics.md#gromacs) | 分子动力学 | 2026.2（2026 系列） | 🟢 |
 | [LAMMPS](zh/02-molecular-dynamics.md#lammps) | 分子动力学 | 稳定 22Jul2025 / 特性 30Mar2026 | 🟢 |
 | [OpenMM](zh/02-molecular-dynamics.md#openmm) | 分子动力学 | v8.5.2（2026-06） | 🟢 |
-| [DeePMD-kit](zh/03-ml-potentials.md#deepmd-kit) | ML 势 | v3.1.x（含 DPA3 预训练） | 🟢 |
-| [MACE](zh/03-ml-potentials.md#mace) | ML 势 | 基础模型持续迭代 | 🟢 |
-| [MatGL](zh/03-ml-potentials.md#matglmaterials-graph-library) | ML 势 | v2.0.0（2025-11） | 🟢 |
-| [fairchem](zh/03-ml-potentials.md#fairchemfair-chemistry) | ML 势 | 活跃（2026-06） | 🟢 |
-| [ASE](zh/04-materials-workflows.md#aseatomic-simulation-environment) | 工作流 | v3.28.0（2026-03） | 🟢 |
-| [pymatgen](zh/04-materials-workflows.md#pymatgenpython-materials-genomics) | 工作流 | 2026.5.18（日历版本） | 🟢 |
-| [RDKit](zh/05-cheminformatics.md#rdkit) | 化学信息学 | 2026.03.3（2026-06） | 🟢 |
-| [Open Babel](zh/05-cheminformatics.md#open-babel) | 化学信息学 | 3.1.1（更新缓慢） | 🟠 |
+| [DeePMD-kit](zh/03-ml-potentials.md#deepmd-kit) | ML 势 | v3.1.x（DPA3）;v3.2 测试版（DPA4） | 🟢 |
+| [MACE](zh/03-ml-potentials.md#mace) | ML 势 | v0.3.16（2025-05） | 🟢 |
+| [MatGL](zh/03-ml-potentials.md#matglmaterials-graph-library) | ML 势 | v4.0.2（2026-06） | 🟢 |
+| [fairchem](zh/03-ml-potentials.md#fairchemfair-chemistry) | ML 势 | fairchem-core v2.21.0（2025-06） | 🟢 |
+| [ASE](zh/04-materials-workflows.md#aseatomic-simulation-environment) | 工作流 | v3.29.0（2026-06） | 🟢 |
+| [pymatgen](zh/04-materials-workflows.md#pymatgenpython-materials-genomics) | 工作流 | 2026.5.4（日历版本） | 🟢 |
+| [RDKit](zh/05-cheminformatics.md#rdkit) | 化学信息学 | 2026.03.3（2026-05） | 🟢 |
+| [Open Babel](zh/05-cheminformatics.md#open-babel) | 化学信息学 | 3.2.0（2025-05，更新缓慢） | 🟠 |
 | [AutoDock Vina](zh/06-docking-drug-design.md#autodock-vina) | 对接 | v1.2.7 | 🟡 |
 | [gnina](zh/06-docking-drug-design.md#gnina) | 对接 | v1.3.2（2025-07，迁移 PyTorch） | 🟢 |
-| [MDAnalysis](zh/07-visualization-analysis.md#mdanalysis) | 轨迹分析 | 活跃（支持 NumPy 2） | 🟢 |
+| [MDAnalysis](zh/07-visualization-analysis.md#mdanalysis) | 轨迹分析 | v2.10.0（2024-10，支持 NumPy 2） | 🟢 |
 | [PyMOL（开源版）](zh/07-visualization-analysis.md#pymol开源版) | 可视化 | 3.1.x（2026-03） | 🟡 |
 
 > 完整项目列表与每个项目的详细信息见各分类文档。

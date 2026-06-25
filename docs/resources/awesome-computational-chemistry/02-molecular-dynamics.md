@@ -55,7 +55,7 @@ and free-energy calculations of biomolecules, soft matter, and materials.
 - **🎯 Usage direction**: GPU-oriented **coarse-grained / colloidal / self-assembly** simulation,
   supporting both molecular dynamics and Monte Carlo (HPMC); Python-driven and common in soft-matter
   and nanoparticle self-assembly research.
-- **🔄 Update status**: 🟢 latest **v7.0.x** (2026-04). Active releases.
+- **🔄 Update status**: 🟢 latest **v7.0.1** (2025-04-08). Active releases.
 
 ## ESPResSo
 

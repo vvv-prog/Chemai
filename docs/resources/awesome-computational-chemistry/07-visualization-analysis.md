@@ -19,7 +19,7 @@ molecular structures, trajectories, and computational results.
 - **🎯 Usage direction**: the mainstream Python library for MD trajectory analysis, **supporting nearly all
   trajectory/topology formats** (GROMACS, Amber, NAMD, LAMMPS, …), with a powerful atom-selection language and rich
   analysis modules (RMSD/RMSF, hydrogen bonds, RDF, density, contact analysis, …) and support for parallel analysis.
-- **🔄 Update status**: 🟢 actively maintained (now supports NumPy 2.0+, adds GROMACS 2025 TPR, parallel analysis, etc.).
+- **🔄 Update status**: 🟢 latest **v2.10.0** (2024-10-17); supports NumPy 2.0+, GROMACS 2025 TPR, parallel analysis, etc.
 
 ## MDTraj
 

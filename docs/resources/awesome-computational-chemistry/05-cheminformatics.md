@@ -22,7 +22,7 @@ substructure matching, conformer generation, and chemical feature engineering fo
   feature preparation for QSAR/ML.
 - **✨ Highlights**: mature, stable, well-documented; the base dependency for almost every drug-discovery / chemical
   ML pipeline; integrates with Pandas (PandasTools).
-- **🔄 Update status**: 🟢 latest **2026.03.3** (2026-06-05). Quarterly releases (YYYY.MM.patch), very actively maintained.
+- **🔄 Update status**: 🟢 latest **2026.03.3** (2026-05-29). Quarterly releases (YYYY.MM.patch), very actively maintained.
 
 ## Open Babel
 
@@ -32,7 +32,7 @@ substructure matching, conformer generation, and chemical feature engineering fo
 - **🎯 Usage direction**: the Swiss-army knife of chemical **file-format conversion** and interoperability,
   supporting **110+ formats** (e.g. PDB↔PDBQT↔MOL2↔SMILES) plus command-line/library features such as adding
   hydrogens, generating 3D coordinates, and simple force-field optimization; common in ligand preparation before docking.
-- **🔄 Update status**: 🟠 stable but slow; main version **3.1.1** (2020), mostly minor maintenance.
+- **🔄 Update status**: 🟠 stable but slow; latest **3.2.0** (2025-05-26), following 3.1.1 (2020) — mostly minor maintenance.
 
 ## DeepChem
 
