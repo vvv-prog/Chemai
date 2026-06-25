@@ -46,17 +46,17 @@
 | [GROMACS](zh/02-molecular-dynamics.md#gromacs) | 分子动力学 | 2026.2（2026 系列） | 🟢 |
 | [LAMMPS](zh/02-molecular-dynamics.md#lammps) | 分子动力学 | 稳定 22Jul2025 / 特性 30Mar2026 | 🟢 |
 | [OpenMM](zh/02-molecular-dynamics.md#openmm) | 分子动力学 | v8.5.2（2026-06） | 🟢 |
-| [DeePMD-kit](zh/03-ml-potentials.md#deepmd-kit) | ML 势 | v3.1.x（含 DPA3 预训练） | 🟢 |
-| [MACE](zh/03-ml-potentials.md#mace) | ML 势 | 基础模型持续迭代 | 🟢 |
+| [DeePMD-kit](zh/03-ml-potentials.md#deepmd-kit) | ML 势 | v3.1.x（DPA3）;v3.2 测试版（DPA4） | 🟢 |
+| [MACE](zh/03-ml-potentials.md#mace) | ML 势 | v0.3.16（2025-05） | 🟢 |
 | [MatGL](zh/03-ml-potentials.md#matglmaterials-graph-library) | ML 势 | v4.0.2（2026-06） | 🟢 |
-| [fairchem](zh/03-ml-potentials.md#fairchemfair-chemistry) | ML 势 | 活跃（2026-06） | 🟢 |
+| [fairchem](zh/03-ml-potentials.md#fairchemfair-chemistry) | ML 势 | fairchem-core v2.21.0（2025-06） | 🟢 |
 | [ASE](zh/04-materials-workflows.md#aseatomic-simulation-environment) | 工作流 | v3.29.0（2026-06） | 🟢 |
 | [pymatgen](zh/04-materials-workflows.md#pymatgenpython-materials-genomics) | 工作流 | 2026.5.4（日历版本） | 🟢 |
 | [RDKit](zh/05-cheminformatics.md#rdkit) | 化学信息学 | 2026.03.3（2026-05） | 🟢 |
 | [Open Babel](zh/05-cheminformatics.md#open-babel) | 化学信息学 | 3.2.0（2025-05，更新缓慢） | 🟠 |
 | [AutoDock Vina](zh/06-docking-drug-design.md#autodock-vina) | 对接 | v1.2.7 | 🟡 |
 | [gnina](zh/06-docking-drug-design.md#gnina) | 对接 | v1.3.2（2025-07，迁移 PyTorch） | 🟢 |
-| [MDAnalysis](zh/07-visualization-analysis.md#mdanalysis) | 轨迹分析 | 活跃（支持 NumPy 2） | 🟢 |
+| [MDAnalysis](zh/07-visualization-analysis.md#mdanalysis) | 轨迹分析 | v2.10.0（2024-10，支持 NumPy 2） | 🟢 |
 | [PyMOL（开源版）](zh/07-visualization-analysis.md#pymol开源版) | 可视化 | 3.1.x（2026-03） | 🟡 |
 
 > 完整项目列表与每个项目的详细信息见各分类文档。

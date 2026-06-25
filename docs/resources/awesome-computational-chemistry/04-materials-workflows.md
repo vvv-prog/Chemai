@@ -41,7 +41,7 @@ This is the layer that connects "calculation engines" to large-scale scientific 
 - **🎯 Usage direction**: a **workflow engine + data provenance** platform for high-throughput computing that
   automatically records every calculation's inputs/outputs/dependencies for **reproducibility**, and schedules
   execution on clusters — ideal for systematic high-throughput materials/chemistry research.
-- **🔄 Update status**: 🟢 **v2.6.x** series, actively maintained with a public release roadmap.
+- **🔄 Update status**: 🟢 latest **v2.8.0** (2026-03-16); actively maintained with a public release roadmap.
 
 ## atomate2
 

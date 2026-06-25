@@ -49,17 +49,17 @@ this folder; Chinese versions of every page live under [`zh/`](zh/).
 | [GROMACS](02-molecular-dynamics.md#gromacs) | Molecular dynamics | 2026.2 (2026 series) | 🟢 |
 | [LAMMPS](02-molecular-dynamics.md#lammps) | Molecular dynamics | stable 22Jul2025 / feature 30Mar2026 | 🟢 |
 | [OpenMM](02-molecular-dynamics.md#openmm) | Molecular dynamics | v8.5.2 (2026-06) | 🟢 |
-| [DeePMD-kit](03-ml-potentials.md#deepmd-kit) | ML potential | v3.1.x (incl. DPA3 pretrained) | 🟢 |
-| [MACE](03-ml-potentials.md#mace) | ML potential | foundation models iterating | 🟢 |
+| [DeePMD-kit](03-ml-potentials.md#deepmd-kit) | ML potential | v3.1.x (DPA3); v3.2 beta (DPA4) | 🟢 |
+| [MACE](03-ml-potentials.md#mace) | ML potential | v0.3.16 (2025-05) | 🟢 |
 | [MatGL](03-ml-potentials.md#matgl-materials-graph-library) | ML potential | v4.0.2 (2026-06) | 🟢 |
-| [fairchem](03-ml-potentials.md#fairchem-fair-chemistry) | ML potential | active (2026-06) | 🟢 |
+| [fairchem](03-ml-potentials.md#fairchem-fair-chemistry) | ML potential | fairchem-core v2.21.0 (2025-06) | 🟢 |
 | [ASE](04-materials-workflows.md#ase-atomic-simulation-environment) | Workflow | v3.29.0 (2026-06) | 🟢 |
 | [pymatgen](04-materials-workflows.md#pymatgen-python-materials-genomics) | Workflow | 2026.5.4 (calendar versioning) | 🟢 |
 | [RDKit](05-cheminformatics.md#rdkit) | Cheminformatics | 2026.03.3 (2026-05) | 🟢 |
 | [Open Babel](05-cheminformatics.md#open-babel) | Cheminformatics | 3.2.0 (2025-05, slow updates) | 🟠 |
 | [AutoDock Vina](06-docking-drug-design.md#autodock-vina) | Docking | v1.2.7 | 🟡 |
 | [gnina](06-docking-drug-design.md#gnina) | Docking | v1.3.2 (2025-07, moved to PyTorch) | 🟢 |
-| [MDAnalysis](07-visualization-analysis.md#mdanalysis) | Trajectory analysis | active (NumPy 2 support) | 🟢 |
+| [MDAnalysis](07-visualization-analysis.md#mdanalysis) | Trajectory analysis | v2.10.0 (2024-10, NumPy 2 support) | 🟢 |
 | [PyMOL (open source)](07-visualization-analysis.md#pymol-open-source) | Visualization | 3.1.x (2026-03) | 🟡 |
 
 > See each category doc for the full project list and per-project details.

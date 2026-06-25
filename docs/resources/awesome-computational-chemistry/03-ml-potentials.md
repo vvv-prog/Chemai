@@ -22,7 +22,7 @@ can be used directly or fine-tuned.
   LAMMPS, GROMACS, ASE, etc., for high-accuracy MD of large systems (materials/liquids/catalysis).
   Provides the **DPA series of universal pretrained models**.
 - **🔄 Update status**: 🟢 **v3.1.x** series; adds built-in downloadable pretrained models (e.g. **DPA3**),
-  distributed training, and more optimizers. Very active (DeepModeling community).
+  distributed training, and more optimizers. Very active (DeepModeling community); v3.2.0 (DPA4) in pre-release.
 
 ## MACE
 
@@ -32,7 +32,7 @@ can be used directly or fine-tuned.
   and efficiency and one of the most popular equivariant GNN potentials today. Provides **universal foundation
   models** [mace-foundations](https://github.com/ACEsuit/mace-foundations) (e.g. MACE-MP, MACE-OFF, MACE-MH)
   usable out of the box across materials/molecular/surface systems.
-- **🔄 Update status**: 🟢 highly active; foundation models and code iterate continuously.
+- **🔄 Update status**: 🟢 latest **v0.3.16** (2025-05-10); foundation models and code iterate continuously.
 
 ## NequIP / Allegro
 
@@ -62,7 +62,7 @@ can be used directly or fine-tuned.
 - **🎯 Usage direction**: Meta FAIR's chemistry machine-learning library, originating from the **Open Catalyst**
   project; provides **universal models for catalysis/materials (e.g. UMA)** and large datasets (OC20/OC22, …),
   geared toward catalyst screening and materials discovery.
-- **🔄 Update status**: 🟢 highly active (still updated as of 2026-06).
+- **🔄 Update status**: 🟢 latest packaged release **fairchem-core v2.21.0** (2025-06-08); UMA models and code under active development.
 
 ## TorchANI
 
@@ -79,7 +79,7 @@ can be used directly or fine-tuned.
 - **Language / License**: Python / MIT
 - **🎯 Usage direction**: an atomistic neural-network **modeling toolbox** (SchNet, PaiNN, …) with a data
   pipeline and built-in MD, suited to learning methods, research, and custom model development.
-- **🔄 Update status**: 🟡 SchNetPack **2.0** series, steadily maintained.
+- **🔄 Update status**: 🟡 SchNetPack **2.x** series, latest **v2.2.0** (2024-12-19). Steadily maintained.
 
 ## sGDML
 
